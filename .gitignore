@@ -1,0 +1,6 @@
+tmp/
+config/
+config/secrets.yml
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
