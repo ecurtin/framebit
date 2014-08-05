@@ -1,6 +1,8 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+<<<<<<< HEAD
+=======
 
 $font-stack:    Helvetica, sans-serif;
 $body-font-color: #333;
@@ -37,3 +39,4 @@ nav {
 content {
   float: right;
 }
+>>>>>>> 5ded200b0804c19e0f189503805afadd2104f0e1
