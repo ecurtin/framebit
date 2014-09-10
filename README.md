@@ -1,6 +1,6 @@
 framebit
 ========
 
-My personal scenic overlook on the information superhighway
+I'm in the (slow) process of moving my wordpress site to Ruby on Rails.
 
-emily is cool
+Currently: experimenting with overall look and feel in SCSS, as well as different information architectures.
