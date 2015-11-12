@@ -12,3 +12,4 @@ config/secrets.yml
 /src/test
 /project/project
 /project/target
+/project/target/*
