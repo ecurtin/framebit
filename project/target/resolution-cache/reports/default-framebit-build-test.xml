@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="framebit-build"
+		revision="0.1-SNAPSHOT"
+		extra-scalaVersion="2.10"
+		extra-sbtVersion="0.13"
+		conf="test"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20151111214217"/>
+	<dependencies>
+		<module organisation="au.com.langdale" name="soapbox">
+			<revision name="0.4" status="release" pubdate="20131026041132" resolver="public" artresolver="public" homepage="https://github.com/arnolddevos/Soapbox" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="successful" details="" size="2600" time="202" location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/soapbox/ivy-0.4.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/soapbox/ivy-0.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/au/com/langdale/soapbox_2.10_0.13/0.4/soapbox-0.4.pom"/>
+				<caller organisation="default" name="framebit-build" conf="test, compile, runtime" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="0.1-SNAPSHOT" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="soapbox" type="jar" ext="jar" status="successful" details="" size="359669" time="483" location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/soapbox/jars/soapbox-0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/au/com/langdale/soapbox_2.10_0.13/0.4/soapbox-0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="1.6.2" status="release" pubdate="20100913190700" resolver="public" artresolver="public" homepage="http://joda-time.sourceforge.net" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="13994" time="187" location="/Users/emily.curtin/.ivy2/cache/joda-time/joda-time/ivy-1.6.2.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/joda-time/joda-time/ivy-1.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.pom"/>
+				<caller organisation="au.com.langdale" name="soapbox" conf="default, compile, runtime, master" rev="1.6.2" rev-constraint-default="1.6.2" rev-constraint-dynamic="1.6.2" callerrev="0.4"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="successful" details="" size="543044" time="328" location="/Users/emily.curtin/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/1.6.2/joda-time-1.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.pegdown" name="pegdown">
+			<revision name="1.4.1" status="release" pubdate="20130725100924" resolver="public" artresolver="public" homepage="http://pegdown.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1877" time="203" location="/Users/emily.curtin/.ivy2/cache/org.pegdown/pegdown/ivy-1.4.1.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.pegdown/pegdown/ivy-1.4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/pegdown/pegdown/1.4.1/pegdown-1.4.1.pom"/>
+				<caller organisation="au.com.langdale" name="soapbox" conf="default, compile, runtime, master" rev="1.4.1" rev-constraint-default="1.4.1" rev-constraint-dynamic="1.4.1" callerrev="0.4"/>
+				<artifacts>
+					<artifact name="pegdown" type="jar" ext="jar" status="successful" details="" size="66676" time="219" location="/Users/emily.curtin/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/pegdown/pegdown/1.4.1/pegdown-1.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-java">
+			<revision name="1.1.5" status="release" pubdate="20130502103054" resolver="public" artresolver="public" homepage="http://parboiled.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="2574" time="214" location="/Users/emily.curtin/.ivy2/cache/org.parboiled/parboiled-java/ivy-1.1.5.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.parboiled/parboiled-java/ivy-1.1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.5/parboiled-java-1.1.5.pom"/>
+				<caller organisation="org.pegdown" name="pegdown" conf="compile, runtime" rev="1.1.5" rev-constraint-default="1.1.5" rev-constraint-dynamic="1.1.5" callerrev="1.4.1"/>
+				<artifacts>
+					<artifact name="parboiled-java" type="bundle" ext="jar" status="successful" details="" size="83773" time="244" location="/Users/emily.curtin/.ivy2/cache/org.parboiled/parboiled-java/bundles/parboiled-java-1.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-java/1.1.5/parboiled-java-1.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-util">
+			<revision name="4.1" status="release" pubdate="20121014113900" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<metadata-artifact status="successful" details="" size="2086" time="175" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-util/ivy-4.1.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-util/ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.5"/>
+				<artifacts>
+					<artifact name="asm-util" type="jar" ext="jar" status="successful" details="" size="37599" time="199" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-analysis">
+			<revision name="4.1" status="release" pubdate="20121014113804" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<metadata-artifact status="successful" details="" size="2094" time="196" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-4.1.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-analysis/ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.5"/>
+				<artifacts>
+					<artifact name="asm-analysis" type="jar" ext="jar" status="successful" details="" size="19812" time="189" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-tree">
+			<revision name="4.1" status="release" pubdate="20121014113839" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<metadata-artifact status="successful" details="" size="2081" time="185" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.1.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-tree/ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.5"/>
+				<caller organisation="org.ow2.asm" name="asm-util" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="4.1"/>
+				<caller organisation="org.ow2.asm" name="asm-analysis" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="asm-tree" type="jar" ext="jar" status="successful" details="" size="22162" time="206" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014113745" resolver="public" artresolver="public" homepage="" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<metadata-artifact status="successful" details="" size="1933" time="187" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm/ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="1.1.5"/>
+				<caller organisation="org.ow2.asm" name="asm-tree" conf="compile, runtime" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="4.1"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="successful" details="" size="47359" time="208" location="/Users/emily.curtin/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled-core">
+			<revision name="1.1.5" status="release" pubdate="20130502103037" resolver="public" artresolver="public" homepage="http://parboiled.org" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="successful" details="" size="1730" time="251" location="/Users/emily.curtin/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/org.parboiled/parboiled-core/ivy-1.1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.pom"/>
+				<caller organisation="org.parboiled" name="parboiled-java" conf="compile, runtime" rev="1.1.5" rev-constraint-default="1.1.5" rev-constraint-dynamic="1.1.5" callerrev="1.1.5"/>
+				<artifacts>
+					<artifact name="parboiled-core" type="bundle" ext="jar" status="successful" details="" size="186418" time="248" location="/Users/emily.curtin/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled-core/1.1.5/parboiled-core-1.1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="au.com.langdale" name="browser-reload">
+			<revision name="0.1" status="release" pubdate="20131026032544" resolver="public" artresolver="public" homepage="https://github.com/arnolddevos/browser-reload" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="true" searched="true" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="successful" details="" size="1862" time="212" location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/browser-reload/ivy-0.1.xml" searched="true" original-local-location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/browser-reload/ivy-0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/au/com/langdale/browser-reload_2.10_0.13/0.1/browser-reload-0.1.pom"/>
+				<caller organisation="au.com.langdale" name="soapbox" conf="default, compile, runtime, master" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="0.4" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
+				<artifacts>
+					<artifact name="browser-reload" type="jar" ext="jar" status="successful" details="" size="10242" time="246" location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/browser-reload/jars/browser-reload-0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/au/com/langdale/browser-reload_2.10_0.13/0.1/browser-reload-0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
