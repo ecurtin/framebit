@@ -8,8 +8,11 @@ config/secrets.yml
 /target/resolution-cache
 /target/scala-2.11
 /target/streams
+
 /src/main
 /src/test
 /project/project
 /project/target
 /project/target/*
+/project/target/*/*
+/target
