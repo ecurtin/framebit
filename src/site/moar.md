@@ -1,3 +1,3 @@
-**ok. this is a blog.**
+#ok. this is a blog.
 
-I'm typing my whatever
+I'm typing my whatever penis
