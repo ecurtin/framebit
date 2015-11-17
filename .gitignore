@@ -11,8 +11,5 @@ config/secrets.yml
 
 /src/main
 /src/test
-/project/project
-/project/target
-/project/target/*
-/project/target/*/*
+/project/*/*
 /target

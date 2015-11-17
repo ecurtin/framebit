@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20151111225318"/>
+		date="20151117075818"/>
 	<dependencies>
 		<module organisation="au.com.langdale" name="soapbox">
 			<revision name="0.4" status="release" pubdate="20131026041132" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/arnolddevos/Soapbox" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">

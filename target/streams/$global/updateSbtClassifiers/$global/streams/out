@@ -885,9 +885,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 727ms :: artifacts dl 22ms
+[debug] :: resolution report :: resolve 945ms :: artifacts dl 28ms
 [debug] 	report for default#framebit$sbt_2.11;1.0 default produced in /Users/emily.curtin/git/framebit/target/resolution-cache/reports/default-framebit$sbt_2.11-default.xml
-[debug] 	resolve done (727ms resolve - 22ms download)
+[debug] 	resolve done (945ms resolve - 28ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#framebit$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1343,6 +1343,6 @@
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;1.6.2!joda-time.jar(src)
-[debug] :: resolution report :: resolve 118ms :: artifacts dl 26ms
+[debug] :: resolution report :: resolve 147ms :: artifacts dl 53ms
 [debug] 	report for default#framebit$sources_2.11;1.0 default produced in /Users/emily.curtin/git/framebit/target/resolution-cache/reports/default-framebit$sources_2.11-default.xml
-[debug] 	resolve done (118ms resolve - 26ms download)
+[debug] 	resolve done (147ms resolve - 53ms download)

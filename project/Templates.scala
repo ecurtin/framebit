@@ -1,5 +1,5 @@
 import au.com.langdale.soapbox.Publisher._
-import au.com.langdale.soapbox.{GoogleAnalytics, Disqus, Twitter}
+import au.com.langdale.soapbox.{Disqus, Twitter}
 import sbt._
 
 
@@ -8,21 +8,20 @@ object Templates extends Plugin {
 
     siteDefaultTemplate := {
       (title, content) => {
-        <html xmlns="http://www.w3.org/TR/html4/">
+        <html>
           <head>
             <title>{title}</title>
+            <link rel="stylesheet" href="css/custom.css" type="text/css" />
+            <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
             <link rel="stylesheet" href="styles/default.css" type="text/css" />
+            <link rel="icon" href="favicon.ico" type="image/x-icon" />
+            <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
           </head>
           <body>
             <div>
               <div id="banner">
                 <div id="illust"/>
                 <div id="logo"/>
-              </div>
-              <div id="main">
-                <div class="container">
-                  <div id="content">{ content }</div>
-                </div>
               </div>
               <div id="menu">
                 <ul class="nav nav-pills">
@@ -33,23 +32,18 @@ object Templates extends Plugin {
                   }
                 </ul>
               </div>
+              <div id="main">
+                <div class="container">
+                  <div id="content">{ content }</div>
+                </div>
+              </div>
+
               <div id="footer">{ siteFooter.value }</div>
             </div>
+            <script src="js/bootstrap.min.js"></script>
           </body>
         </html>
       }
     }
-
-
-
-
-//    siteTemplates += Template("*.md",
-//      (title, content) => {
-//        <html xmlns="http://www.w3.org/TR/html4/">
-//          <head><title>{title}</title></head>
-//          <body>{content}</body>
-//        </html>
-//      }
-//    )
   )
 }

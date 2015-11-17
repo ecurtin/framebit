@@ -4,7 +4,7 @@
 		module="framebit$sources_javadoc_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151111225318"
+		publication="20151117075818"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
