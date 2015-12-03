@@ -4,3 +4,12 @@ config/secrets.yml
 .DS_Store
 */.DS_Store
 */*/.DS_Store
+/.idea
+/target/resolution-cache
+/target/scala-2.11
+/target/streams
+
+/src/main
+/src/test
+/project/*/*
+/target
