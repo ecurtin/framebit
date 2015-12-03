@@ -7,20 +7,8 @@
 		revision="1.0"
 		conf="default"
 		confs="default"
-		date="20151117075818"/>
+		date="20151123221427"/>
 	<dependencies>
-		<module organisation="au.com.langdale" name="soapbox">
-			<revision name="0.4" status="release" pubdate="20131026041132" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/arnolddevos/Soapbox" extra-scalaVersion="2.10" extra-sbtVersion="0.13" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="52">
-				<license name="BSD-style" url="http://www.opensource.org/licenses/bsd-license.php"/>
-				<metadata-artifact status="no" details="" size="3685" time="0" location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/soapbox/ivy-0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/au/com/langdale/soapbox_2.10_0.13/0.4/soapbox-0.4.pom"/>
-				<caller organisation="default" name="framebit$sources_2.11" conf="default" rev="0.4" rev-constraint-default="0.4" rev-constraint-dynamic="0.4" callerrev="1.0" extra-scalaVersion="2.10" extra-sbtVersion="0.13"/>
-				<artifacts>
-					<artifact name="soapbox" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="18204" time="0" location="/Users/emily.curtin/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/soapbox/srcs/soapbox-0.4-sources.jar">
-						<origin-location is-local="false" location="https://repo1.maven.org/maven2/au/com/langdale/soapbox_2.10_0.13/0.4/soapbox-0.4-sources.jar"/>
-					</artifact>
-				</artifacts>
-			</revision>
-		</module>
 		<module organisation="joda-time" name="joda-time">
 			<revision name="1.6.2" status="release" pubdate="20100913190700" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="61">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
@@ -137,7 +125,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_3">
-			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="51">
+			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="52">
 				<metadata-artifact status="no" details="" size="1486" time="0" location="/Users/emily.curtin/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_3/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="default" name="framebit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0"/>
 				<artifacts>
@@ -148,7 +136,7 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_9_2">
-			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="50">
+			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="51">
 				<metadata-artifact status="no" details="" size="1486" time="0" location="/Users/emily.curtin/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_9_2/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="default" name="framebit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0"/>
 				<artifacts>
@@ -159,13 +147,22 @@
 			</revision>
 		</module>
 		<module organisation="org.scala-sbt" name="precompiled-2_8_2">
-			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="49">
+			<revision name="0.13.8" status="release" pubdate="20150320120726" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="50">
 				<metadata-artifact status="no" details="" size="1492" time="0" location="/Users/emily.curtin/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/ivys/ivy.xml"/>
 				<caller organisation="default" name="framebit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0"/>
 				<artifacts>
 					<artifact name="precompiled-2_8_2" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="30390" time="0" location="/Users/emily.curtin/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/srcs/precompiled-2_8_2-0.13.8-sources.jar">
 						<origin-location is-local="false" location="https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/precompiled-2_8_2/0.13.8/srcs/precompiled-2_8_2-sources.jar"/>
 					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-sbt" name="compiler-interface">
+			<revision name="0.13.8" status="release" pubdate="20150320121057" resolver="sbt-chain" artresolver="sbt-chain" downloaded="false" searched="false" default="false" conf="compile, default(compile)" position="49">
+				<metadata-artifact status="no" details="" size="1841" time="0" location="/Users/emily.curtin/.ivy2/cache/org.scala-sbt/compiler-interface/ivy-0.13.8.xml" searched="false" origin-is-local="false" origin-location="http://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/ivys/ivy.xml"/>
+				<caller organisation="default" name="framebit$sources_2.11" conf="default" rev="0.13.8" rev-constraint-default="0.13.8" rev-constraint-dynamic="0.13.8" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="compiler-interface" type="src" ext="jar" extra-classifier="sources" status="failed" details="" size="0" time="0"/>
 				</artifacts>
 			</revision>
 		</module>

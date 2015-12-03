@@ -1,84 +1,52 @@
-[info] Updating {file:/Users/emily.curtin/git/framebit/project/}framebit-build...
-[debug] :: resolving dependencies :: default#framebit-build;0.1-SNAPSHOT
+[info] Updating {file:/Users/emily.curtin/git/framebit/project/}root...
+[debug] :: resolving dependencies :: root#root;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->default(compile)]
-[info] Resolving au.com.langdale#soapbox;0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#soapbox;0.4 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: au.com.langdale#soapbox;0.4
-[debug] 	found au.com.langdale#soapbox;0.4 in sbt-chain
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->au.com.langdale#soapbox;0.5 [compile->default(compile)]
+[info] Resolving au.com.langdale#soapbox;0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#soapbox;0.5 {compile=[default(compile)]}
+[debug] 	found au.com.langdale#soapbox;0.5 in inter-project
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
 [info] Resolving au.com.langdale#browser-reload;0.1 ...
-[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#browser-reload;0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#browser-reload;0.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: au.com.langdale#browser-reload;0.1
 [debug] 	found au.com.langdale#browser-reload;0.1 in sbt-chain
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
 [info] Resolving org.pegdown#pegdown;1.4.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.pegdown#pegdown;1.4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: org.pegdown#pegdown;1.4.1 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.pegdown#pegdown;1.4.1
 [debug] 	found org.pegdown#pegdown;1.4.1 in sbt-chain
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [info] Resolving org.parboiled#parboiled-java;1.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.parboiled#parboiled-java;1.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.parboiled#parboiled-java;1.1.5
 [debug] 	found org.parboiled#parboiled-java;1.1.5 in sbt-chain
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [info] Resolving org.parboiled#parboiled-core;1.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.parboiled#parboiled-core;1.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.parboiled#parboiled-core;1.1.5
 [debug] 	found org.parboiled#parboiled-core;1.1.5 in sbt-chain
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [info] Resolving org.ow2.asm#asm;4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm;4.1
 [debug] 	found org.ow2.asm#asm;4.1 in sbt-chain
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [info] Resolving org.ow2.asm#asm-tree;4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-tree;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-tree;4.1
@@ -87,11 +55,6 @@
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [info] Resolving org.ow2.asm#asm-analysis;4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-analysis;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-analysis;4.1
@@ -100,11 +63,6 @@
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [info] Resolving org.ow2.asm#asm-util;4.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.ow2.asm#asm-util;4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] sbt-chain: module revision found in cache: org.ow2.asm#asm-util;4.1
@@ -112,10 +70,8 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile]
-[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
-[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->runtime(*)]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [runtime->runtime(*)]
@@ -132,113 +88,50 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->master]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->default(compile)]
 [info] Resolving joda-time#joda-time;1.6.2 ...
-[debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;1.6.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;1.6.2 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: joda-time#joda-time;1.6.2
 [debug] 	found joda-time#joda-time;1.6.2 in sbt-chain
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->master]
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->au.com.langdale#soapbox;0.5 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
@@ -257,96 +150,45 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->master]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->master]
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->au.com.langdale#soapbox;0.5 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
@@ -365,23 +207,23 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->master]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->master]
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@66d57af0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3c5da67b
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4
 [debug] 	found org.scala-lang#scala-library;2.10.4 in sbt-chain
 [debug] 	[2.10.4] org.scala-lang#scala-library;2.10.4
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [info] Resolving org.scala-sbt#sbt;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#sbt;0.13.8 {provided=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#sbt;0.13.8
@@ -1067,91 +909,40 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile-internal]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile-internal]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->au.com.langdale#soapbox;0.5 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
@@ -1170,18 +961,18 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->master]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->master]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -1644,90 +1435,39 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [runtime-internal]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [runtime-internal]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->au.com.langdale#soapbox;0.5 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
@@ -1746,98 +1486,47 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->master]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->master]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [test-internal]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [test]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [runtime]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [test-internal]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [test]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [runtime]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->au.com.langdale#soapbox;0.5 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->au.com.langdale#browser-reload;0.1 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-tree;4.1->org.ow2.asm#asm;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-analysis;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->compile(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->master(compile)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
@@ -1856,18 +1545,18 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->au.com.langdale#soapbox;0.4 [compile->master]
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.2 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {provided=[compile(*), provided(*), runtime(*), master(compile)]}
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [optional]
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [provided]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->org.pegdown#pegdown;1.4.1 [compile->master]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->default(compile)]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->runtime]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->compile]
+[debug] == resolving dependencies au.com.langdale#soapbox;0.5->joda-time#joda-time;1.6.2 [compile->master]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [optional]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [provided]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->default(compile)]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->runtime]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [provided->master]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-sbt#sbt;0.13.8 [provided->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->default(compile)]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->runtime]
 [debug] == resolving dependencies org.scala-sbt#sbt;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
@@ -2330,18 +2019,18 @@
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.9.3 {provided=[default(compile)]} => dependency: org.scala-lang#scala-compiler;2.10.4 {provided=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.9.3 {compile=[default(compile)]} => dependency: org.scala-lang#scala-library;2.10.4 {compile=[default(compile)]}
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [plugin]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [sources]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [docs]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [pom]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#framebit-build;0.1-SNAPSHOT [scala-tool]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies for root#root;0.1-SNAPSHOT [scala-tool]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default]
@@ -2359,8 +2048,8 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)]
 [info] Resolving org.scala-lang#jline;2.10.4 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}
@@ -2373,14 +2062,13 @@
 [debug] sbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4
 [debug] 	found org.fusesource.jansi#jansi;1.4 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
-[debug] == resolving dependencies default#framebit-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->default]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->compile]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->master]
+[debug] == resolving dependencies root#root;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] au.com.langdale#soapbox;0.4!soapbox.jar
 [debug] 	[NOT REQUIRED] au.com.langdale#browser-reload;0.1!browser-reload.jar
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.1!pegdown.jar
 [debug] 	[NOT REQUIRED] joda-time#joda-time;1.6.2!joda-time.jar
@@ -2446,19 +2134,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 960ms :: artifacts dl 25ms
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT compile produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-compile.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT runtime produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-runtime.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT test produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-test.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT provided produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-provided.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT optional produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-optional.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT compile-internal produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-compile-internal.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT runtime-internal produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-runtime-internal.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT test-internal produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-test-internal.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT plugin produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-plugin.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT sources produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-sources.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT docs produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-docs.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT pom produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-pom.xml
-[debug] 	report for default#framebit-build;0.1-SNAPSHOT scala-tool produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/default-framebit-build-scala-tool.xml
-[debug] 	resolve done (960ms resolve - 25ms download)
+[debug] :: resolution report :: resolve 721ms :: artifacts dl 27ms
+[debug] 	report for root#root;0.1-SNAPSHOT compile produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-compile.xml
+[debug] 	report for root#root;0.1-SNAPSHOT runtime produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-runtime.xml
+[debug] 	report for root#root;0.1-SNAPSHOT test produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-test.xml
+[debug] 	report for root#root;0.1-SNAPSHOT provided produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-provided.xml
+[debug] 	report for root#root;0.1-SNAPSHOT optional produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-optional.xml
+[debug] 	report for root#root;0.1-SNAPSHOT compile-internal produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-compile-internal.xml
+[debug] 	report for root#root;0.1-SNAPSHOT runtime-internal produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-runtime-internal.xml
+[debug] 	report for root#root;0.1-SNAPSHOT test-internal produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-test-internal.xml
+[debug] 	report for root#root;0.1-SNAPSHOT plugin produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-plugin.xml
+[debug] 	report for root#root;0.1-SNAPSHOT sources produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-sources.xml
+[debug] 	report for root#root;0.1-SNAPSHOT docs produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-docs.xml
+[debug] 	report for root#root;0.1-SNAPSHOT pom produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-pom.xml
+[debug] 	report for root#root;0.1-SNAPSHOT scala-tool produced in /Users/emily.curtin/git/framebit/project/target/resolution-cache/reports/root-root-scala-tool.xml
+[debug] 	resolve done (721ms resolve - 27ms download)
 [info] Done updating.

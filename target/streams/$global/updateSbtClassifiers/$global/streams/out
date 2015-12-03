@@ -647,33 +647,22 @@
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->compile]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-lang#scala-library;2.10.4 [compile->master]
 [debug] == resolving dependencies org.scala-sbt#precompiled-2_9_3;0.13.8->org.scala-sbt#interface;0.13.8 [compile->default(compile)]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#soapbox;0.4 [default->default(compile)]
-[info] Resolving au.com.langdale#soapbox;0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#soapbox;0.4 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: au.com.langdale#soapbox;0.4
-[debug] 	found au.com.langdale#soapbox;0.4 in sbt-chain
-[debug] 	[0.4] au.com.langdale#soapbox;0.4
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#soapbox;0.4 [default->runtime]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#soapbox;0.4 [default->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master(compile)]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->default(compile)]
 [info] Resolving au.com.langdale#browser-reload;0.1 ...
-[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#browser-reload;0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#browser-reload;0.1 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: au.com.langdale#browser-reload;0.1
 [debug] 	found au.com.langdale#browser-reload;0.1 in sbt-chain
 [debug] 	[0.1] au.com.langdale#browser-reload;0.1
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->default(compile)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->runtime]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [compile->master]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master(compile)]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->runtime]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->compile]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->master]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->default(compile)]
 [info] Resolving org.pegdown#pegdown;1.4.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.pegdown#pegdown;1.4.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] sbt-chain: Checking cache for: dependency: org.pegdown#pegdown;1.4.1 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.pegdown#pegdown;1.4.1
 [debug] 	found org.pegdown#pegdown;1.4.1 in sbt-chain
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile(*)]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->runtime]
+[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master(compile)]
 [info] Resolving org.parboiled#parboiled-java;1.1.5 ...
 [debug] sbt-chain: Checking cache for: dependency: org.parboiled#parboiled-java;1.1.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -742,8 +731,7 @@
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.ow2.asm#asm-util;4.1->org.ow2.asm#asm-tree;4.1 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [compile->master]
-[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->default(compile)]
-[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->runtime]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.parboiled#parboiled-core;1.1.5 [runtime->compile]
@@ -755,41 +743,12 @@
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-analysis;4.1 [runtime->compile]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->runtime(*)]
 [debug] == resolving dependencies org.parboiled#parboiled-java;1.1.5->org.ow2.asm#asm-util;4.1 [runtime->compile]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->default(compile)]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->runtime]
+[debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [compile->master]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->runtime(*)]
 [debug] == resolving dependencies org.pegdown#pegdown;1.4.1->org.parboiled#parboiled-java;1.1.5 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->default(compile)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->runtime]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [compile->master]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master(compile)]
-[info] Resolving joda-time#joda-time;1.6.2 ...
-[debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;1.6.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: joda-time#joda-time;1.6.2
-[debug] 	found joda-time#joda-time;1.6.2 in sbt-chain
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->default(compile)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->runtime]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [compile->master]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->au.com.langdale#browser-reload;0.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->org.pegdown#pegdown;1.4.1 [runtime->compile]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->runtime(*)]
-[debug] == resolving dependencies au.com.langdale#soapbox;0.4->joda-time#joda-time;1.6.2 [runtime->compile]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#soapbox;0.4 [default->master]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->default(compile)]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->runtime]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->compile]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->master]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->default(compile)]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->runtime]
-[debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->compile]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.pegdown#pegdown;1.4.1 [default->master]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.parboiled#parboiled-java;1.1.5 [default->default(compile)]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.parboiled#parboiled-java;1.1.5 [default->runtime]
@@ -816,13 +775,16 @@
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.ow2.asm#asm-util;4.1 [default->compile]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->org.ow2.asm#asm-util;4.1 [default->master]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->joda-time#joda-time;1.6.2 [default->default(compile)]
+[info] Resolving joda-time#joda-time;1.6.2 ...
+[debug] sbt-chain: Checking cache for: dependency: joda-time#joda-time;1.6.2 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: joda-time#joda-time;1.6.2
+[debug] 	found joda-time#joda-time;1.6.2 in sbt-chain
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->joda-time#joda-time;1.6.2 [default->runtime]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->joda-time#joda-time;1.6.2 [default->compile]
 [debug] == resolving dependencies default#framebit$sbt_2.11;1.0->joda-time#joda-time;1.6.2 [default->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.8!sbt.jar
-[debug] 	[NOT REQUIRED] au.com.langdale#soapbox;0.4!soapbox.jar
 [debug] 	[NOT REQUIRED] au.com.langdale#browser-reload;0.1!browser-reload.jar
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.1!pegdown.jar
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(bundle)
@@ -885,9 +847,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.8!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar
-[debug] :: resolution report :: resolve 945ms :: artifacts dl 28ms
+[debug] :: resolution report :: resolve 679ms :: artifacts dl 23ms
 [debug] 	report for default#framebit$sbt_2.11;1.0 default produced in /Users/emily.curtin/git/framebit/target/resolution-cache/reports/default-framebit$sbt_2.11-default.xml
-[debug] 	resolve done (945ms resolve - 28ms download)
+[debug] 	resolve done (679ms resolve - 23ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#framebit$sources_2.11;1.0
 [debug] 	confs: [default]
@@ -1182,6 +1144,11 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#logic;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#logic;0.13.8
 [debug] 	found org.scala-sbt#logic;0.13.8 in sbt-chain
+[debug] == resolving dependencies default#framebit$sources_2.11;1.0->org.scala-sbt#compiler-interface;0.13.8 [default->default(compile)]
+[info] Resolving org.scala-sbt#compiler-interface;0.13.8 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#compiler-interface;0.13.8 {default=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scala-sbt#compiler-interface;0.13.8
+[debug] 	found org.scala-sbt#compiler-interface;0.13.8 in sbt-chain
 [debug] == resolving dependencies default#framebit$sources_2.11;1.0->org.scala-sbt#precompiled-2_8_2;0.13.8 [default->default(compile)]
 [info] Resolving org.scala-sbt#precompiled-2_8_2;0.13.8 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_8_2;0.13.8 {default=[default(compile)]}
@@ -1197,15 +1164,6 @@
 [debug] sbt-chain: Checking cache for: dependency: org.scala-sbt#precompiled-2_9_3;0.13.8 {default=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#precompiled-2_9_3;0.13.8
 [debug] 	found org.scala-sbt#precompiled-2_9_3;0.13.8 in sbt-chain
-[debug] == resolving dependencies default#framebit$sources_2.11;1.0->au.com.langdale#soapbox;0.4 [default->default(compile)]
-[info] Resolving au.com.langdale#soapbox;0.4 ...
-[debug] sbt-chain: Checking cache for: dependency: au.com.langdale#soapbox;0.4 {default=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: au.com.langdale#soapbox;0.4
-[debug] 	found au.com.langdale#soapbox;0.4 in sbt-chain
-[debug] 	[0.4] au.com.langdale#soapbox;0.4
-[debug] == resolving dependencies default#framebit$sources_2.11;1.0->au.com.langdale#soapbox;0.4 [default->runtime]
-[debug] == resolving dependencies default#framebit$sources_2.11;1.0->au.com.langdale#soapbox;0.4 [default->compile]
-[debug] == resolving dependencies default#framebit$sources_2.11;1.0->au.com.langdale#soapbox;0.4 [default->master]
 [debug] == resolving dependencies default#framebit$sources_2.11;1.0->au.com.langdale#browser-reload;0.1 [default->default(compile)]
 [info] Resolving au.com.langdale#browser-reload;0.1 ...
 [debug] sbt-chain: Checking cache for: dependency: au.com.langdale#browser-reload;0.1 {default=[default(compile)]}
@@ -1330,10 +1288,25 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.8!apply-macro.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#command;0.13.8!command.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.8!logic.jar(src)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[debug] 		tried /Users/emily.curtin/.ivy2/local/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
+[warn] 	[FAILED     ] org.scala-sbt#compiler-interface;0.13.8!compiler-interface.jar(src):  (0ms)
+[warn] ==== typesafe-ivy-releases: tried
+[warn]   https://repo.typesafe.com/typesafe/ivy-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[warn] ==== sbt-plugin-releases: tried
+[warn]   https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[warn] ==== local: tried
+[warn]   /Users/emily.curtin/.ivy2/local/org.scala-sbt/compiler-interface/0.13.8/srcs/compiler-interface-sources.jar
+[warn] ==== public: tried
+[warn]   https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/0.13.8/compiler-interface-0.13.8-sources.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_8_2;0.13.8!precompiled-2_8_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_2;0.13.8!precompiled-2_9_2.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#precompiled-2_9_3;0.13.8!precompiled-2_9_3.jar(src)
-[debug] 	[NOT REQUIRED] au.com.langdale#soapbox;0.4!soapbox.jar(src)
 [debug] 	[NOT REQUIRED] au.com.langdale#browser-reload;0.1!browser-reload.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.4.1!pegdown.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.5!parboiled-java.jar(src)
@@ -1343,6 +1316,12 @@
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;4.1!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;4.1!asm-util.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;1.6.2!joda-time.jar(src)
-[debug] :: resolution report :: resolve 147ms :: artifacts dl 53ms
+[debug] :: resolution report :: resolve 116ms :: artifacts dl 1165ms
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	::              FAILED DOWNLOADS            ::
+[warn] 	:: ^ see resolution messages for details  ^ ::
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
+[warn] 	:: org.scala-sbt#compiler-interface;0.13.8!compiler-interface.jar(src)
+[warn] 	::::::::::::::::::::::::::::::::::::::::::::::
 [debug] 	report for default#framebit$sources_2.11;1.0 default produced in /Users/emily.curtin/git/framebit/target/resolution-cache/reports/default-framebit$sources_2.11-default.xml
-[debug] 	resolve done (147ms resolve - 53ms download)
+[debug] 	resolve done (116ms resolve - 1165ms download)
