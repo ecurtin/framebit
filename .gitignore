@@ -4,3 +4,10 @@ config/secrets.yml
 .DS_Store
 */.DS_Store
 */*/.DS_Store
+.idea
+project/project/
+project/target/
+framebit.iml
+target/resolution-cache/
+target/streams/
+target/.history
