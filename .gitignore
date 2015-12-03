@@ -4,25 +4,10 @@ config/secrets.yml
 .DS_Store
 */.DS_Store
 */*/.DS_Store
-<<<<<<< HEAD
 .idea
-target/resolution-cache
-target/streams/
 project/project/
 project/target/
-project/*/*
 framebit.iml
 target/resolution-cache/
 target/streams/
 target/.history
-=======
-/.idea
-/target/resolution-cache
-/target/scala-2.11
-/target/streams
-
-/src/main
-/src/test
-/project/*/*
-/target
->>>>>>> 33e9f4403b8c03bcf12222db9cd340f13fe5f4e7
