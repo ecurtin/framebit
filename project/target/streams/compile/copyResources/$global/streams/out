@@ -1,2 +1,2 @@
-[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
-[0m[[0mdebug[0m] [0m	(/Users/emily.curtin/git/framebit/project/target/scala-2.10/sbt-0.13/resource_managed/main/sbt/sbt.plugins,/Users/emily.curtin/git/framebit/project/target/scala-2.10/sbt-0.13/classes/sbt/sbt.plugins)[0m
+[debug] Copy resource mappings: 
+[debug] 	(/home/emily/git/framebit/project/target/scala-2.10/sbt-0.13/resource_managed/main/sbt/sbt.plugins,/home/emily/git/framebit/project/target/scala-2.10/sbt-0.13/classes/sbt/sbt.plugins)

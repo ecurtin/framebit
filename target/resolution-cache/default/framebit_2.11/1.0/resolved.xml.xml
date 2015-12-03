@@ -4,7 +4,7 @@
 		module="framebit_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20151116211915"
+		publication="20151202205014"
 	>
 		<description>
 		framebit
@@ -27,7 +27,7 @@
 	</configurations>
 	<publications>
 		<artifact name="framebit_2.11" type="pom" ext="pom" conf="pom"/>
-		<artifact name="framebit_2.11" type="jar" ext="jar" conf="optional" e:classifier="download, resolveClassifiers, resolveSbtClassifiers"/>
+		<artifact name="framebit_2.11" type="jar" ext="jar" conf="optional" e:classifier="download"/>
 	</publications>
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>

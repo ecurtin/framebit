@@ -1,3 +1,4 @@
 # About
 
-Once upon a time I made a website. I put an about page on that website to test the website. In the end, it maybe worked?
+I have pieces of paper that qualify me to make films and science computers. 
+I don't remember where either of those papers are now.

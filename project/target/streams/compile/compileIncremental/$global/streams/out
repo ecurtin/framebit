@@ -1,15 +1,39 @@
-[0m[[0mdebug[0m] [0m[0m
-[0m[[0mdebug[0m] [0mInitial source changes: [0m
-[0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
-[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
-[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
-[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
-[0m[[0mdebug[0m] [0m[0m
-[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
-[0m[[0mdebug[0m] [0m	product: Set()[0m
-[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
-[0m[[0mdebug[0m] [0m	external source: Set()[0m
-[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set(/home/emily/git/framebit/project/Templates.scala)
+[debug] 	modified: Set()
+[debug] Removed products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(/home/emily/git/framebit/project/Templates.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated sources: Set(/home/emily/git/framebit/project/Templates.scala)
+[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
+[info] Compiling 1 Scala source to /home/emily/git/framebit/project/target/scala-2.10/sbt-0.13/classes...
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Getting compiler-interface from component compiler for Scala 2.10.4
+[debug] Running cached compiler 68b21c53, interfacing (CompilerInterface) with Scala compiler version 2.10.4
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-bootclasspath
+[debug] 	/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes:/home/emily/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+[debug] 	-classpath
+[debug] 	/home/emily/git/framebit/project/target/scala-2.10/sbt-0.13/classes:/home/emily/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/soapbox/jars/soapbox-0.4.jar:/home/emily/.ivy2/cache/scala_2.10/sbt_0.13/au.com.langdale/browser-reload/jars/browser-reload-0.1.jar:/home/emily/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.4.1.jar:/home/emily/.ivy2/cache/org.parboiled/parboiled-java/bundles/parboiled-java-1.1.5.jar:/home/emily/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.5.jar:/home/emily/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar:/home/emily/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar:/home/emily/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar:/home/emily/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar:/home/emily/.ivy2/cache/joda-time/joda-time/jars/joda-time-1.6.2.jar:/home/emily/.ivy2/cache/org.scala-sbt/sbt/jars/sbt-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/main/jars/main-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/actions/jars/actions-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/classpath/jars/classpath-0.13.8.jar:/home/emily/.sbt/boot/scala-2.10.4/lib/scala-compiler.jar:/home/emily/.sbt/boot/scala-2.10.4/lib/scala-reflect.jar:/home/emily/.ivy2/cache/org.scala-sbt/launcher-interface/jars/launcher-interface-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/interface/jars/interface-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/io/jars/io-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/control/jars/control-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/completion/jars/completion-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/collections/jars/collections-0.13.8.jar:/home/emily/.ivy2/cache/jline/jline/jars/jline-2.11.jar:/home/emily/.ivy2/cache/org.scala-sbt/api/jars/api-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/compiler-integration/jars/compiler-integration-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/incremental-compiler/jars/incremental-compiler-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/logging/jars/logging-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/process/jars/process-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/relation/jars/relation-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/compile/jars/compile-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/classfile/jars/classfile-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/persist/jars/persist-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-tools.sbinary/sbinary_2.10/jars/sbinary_2.10-0.4.2.jar:/home/emily/.ivy2/cache/org.scala-sbt/compiler-ivy-integration/jars/compiler-ivy-integration-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/ivy/jars/ivy-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/cross/jars/cross-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt.ivy/ivy/jars/ivy-2.3.0-sbt-fccfbd44c9f64523b61398a0155784dcbaeae28f.jar:/home/emily/.ivy2/cache/com.jcraft/jsch/jars/jsch-0.1.46.jar:/home/emily/.ivy2/cache/org.scala-sbt/serialization_2.10/jars/serialization_2.10-0.1.1.jar:/home/emily/.ivy2/cache/org.scala-lang.modules/scala-pickling_2.10/jars/scala-pickling_2.10-0.10.0.jar:/home/emily/.ivy2/cache/org.scalamacros/quasiquotes_2.10/jars/quasiquotes_2.10-2.0.1.jar:/home/emily/.ivy2/cache/org.json4s/json4s-core_2.10/jars/json4s-core_2.10-3.2.10.jar:/home/emily/.ivy2/cache/org.json4s/json4s-ast_2.10/jars/json4s-ast_2.10-3.2.10.jar:/home/emily/.ivy2/cache/com.thoughtworks.paranamer/paranamer/jars/paranamer-2.6.jar:/home/emily/.ivy2/cache/org.spire-math/jawn-parser_2.10/jars/jawn-parser_2.10-0.6.0.jar:/home/emily/.ivy2/cache/org.spire-math/json4s-support_2.10/jars/json4s-support_2.10-0.6.0.jar:/home/emily/.ivy2/cache/org.scala-sbt/run/jars/run-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/task-system/jars/task-system-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/tasks/jars/tasks-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/tracking/jars/tracking-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/cache/jars/cache-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/testing/jars/testing-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/test-agent/jars/test-agent-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/test-interface/jars/test-interface-1.0.jar:/home/emily/.ivy2/cache/org.scala-sbt/main-settings/jars/main-settings-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/apply-macro/jars/apply-macro-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/command/jars/command-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/logic/jars/logic-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-bin-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/compiler-interface/jars/compiler-interface-src-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/precompiled-2_8_2/jars/compiler-interface-bin-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/precompiled-2_9_2/jars/compiler-interface-bin-0.13.8.jar:/home/emily/.ivy2/cache/org.scala-sbt/precompiled-2_9_3/jars/compiler-interface-bin-0.13.8.jar
+[debug] Scala compilation took 2.182087503 s
+[debug] Invalidating /home/emily/git/framebit/project/Templates.scala...
+[debug] Invalidating (transitively) by inheritance from /home/emily/git/framebit/project/Templates.scala...
+[debug] Initial set of included nodes: Set(/home/emily/git/framebit/project/Templates.scala)
+[debug] Invalidated by transitive inheritance dependency: Set(/home/emily/git/framebit/project/Templates.scala)
+[debug] The /home/emily/git/framebit/project/Templates.scala source file has the following regular definitions changed:
+[debug] 	notify, wait, $asInstanceOf, equals, asInstanceOf, synchronized, $isInstanceOf, notifyAll, isInstanceOf, globalSettings, projectSettings, Templates, ==, clone, toString, !=, getClass, ne, buildSettings, eq, settings, ##, finalize, hashCode.
+[debug] All member reference dependencies will be considered within this context.
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated sources after taking into account (previously) recompiled sources:Set()
