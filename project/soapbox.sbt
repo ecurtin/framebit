@@ -1,1 +1,4 @@
-addSbtPlugin("au.com.langdale" % "soapbox" % "0.4")
+import sbt._
+
+lazy val root = (project in file(".")).dependsOn(soapboxForkPlugin)
+lazy val soapboxForkPlugin = uri("git://github.com/ecurtin/soapbox")
