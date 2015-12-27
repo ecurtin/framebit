@@ -8,11 +8,12 @@ siteDomain := "framebit.org"
 
 blogPath := "index.html"
 
-blogTitle := "hahaha lol"
+blogTitle := "FrameBit"
 
 siteMenu := Menu( "Main",
   List(
     "Home" -> "index.html",
-    "About" -> "About.html"
+    "About" -> "About.html",
+    "Find Me" -> "Find_Me.html"
   )
 )

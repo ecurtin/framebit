@@ -1,3 +1,3 @@
-# Does this piece of crap actually work?
+# FrameBit
 
-[Soapbox] creates static web sites from markdown,
+My home on the Information SuperHighway. Vaguely under construction since 2014.
