@@ -244,3 +244,9 @@ a:hover {
 }
 a {
     color: #49a09d; }
+
+/* Emily's Customizations*/
+img.center {
+        display: block;
+        margin: 0 auto;
+    }
