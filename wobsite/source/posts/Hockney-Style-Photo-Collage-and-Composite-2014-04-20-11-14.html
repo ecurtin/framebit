@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>FrameBit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="normalize.css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="github-markdown.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="cayman.css" media="screen">
+</head>
+<body>
+<section class="page-header">
+    <h1 class="project-name">Your Scalatic blog</h1>
+
+    <h2 class="project-tagline">A lonely outpost on the information superhighway</h2>
+    <a href="." class="btn">Blog Index</a>
+    <a href="About.html" class="btn">About</a>
+</section>
+<section class="main-content">
+    <h1><a id="user-content-hockney-style-photo-collage-and-composite" class="anchor"
+           href="#hockney-style-photo-collage-and-composite" aria-hidden="true"><span
+            class="octicon octicon-link"></span></a>Hockney Style Photo Collages and Composites</h1>
+
+    <p>I listened to a lot of Bowie during this project. It was roughly period appropriate.</p>
+
+    <p>Input: The classic Aladdin Sane cover:</p>
+
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/emilymaycurtin/23843394850/in/datetaken/"
+       title="DavidBowie"><img class="center" src="https://farm6.staticflickr.com/5639/23843394850_687950a302_o.jpg"
+                               width="600" height="600" alt="DavidBowie"></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+    <h3>Hockney-Style Composite Output:</h3>
+
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/emilymaycurtin/23510842914/in/datetaken/"
+       title="BowieComposite"><img class="center" src="https://farm6.staticflickr.com/5674/23510842914_bf9fe8aafb_o.png"
+                                   width="715" height="715" alt="BowieComposite"></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+    <p>David Hockney is an artist who has dabbled in lots of different media and disciplines, from painting to stage
+        design to, briefly and famously, photography.</p>
+
+    <p>Though <a href="http://en.wikipedia.org/wiki/David_Hockney#The_.22joiners.22">Wikipedia says</a> he eventually
+        grew frustrated with the camera's single-eye approach to a scene, his efforts to compensate for it through
+        collages and polaroid composites are well documented.</p>
+
+    <p>While Hockney's compositions are created from many different images with all the quirks and subtleties of a human
+        hand holding a 35mm or polaroid camera, my idea was to recreate the style of his collages and composites using a
+        single source image.</p>
+
+    <p><a href="http://www.hockneypictures.com/photos/photos_collages.php">Hockney's collages</a> are composed of lots
+        of photos of the same subject or same scene, layered and mixed and jumbled to give textural comment. <a
+                href="http://www.hockneypictures.com/photos/photos_polaroids.php">The polaroid composites</a> are
+        orderly layouts of polaroids taken of the same scene at different times and slightly different points.</p>
+
+
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/emilymaycurtin/24139063255/in/datetaken/"
+       title="CrocusComposite_Large"><img class="center"
+                                          src="https://farm6.staticflickr.com/5714/24139063255_d07179d9e0_c.jpg"
+                                          width="800" height="800" alt="CrocusComposite_Large"></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+    <p>To approach this, I built a custom library centered around the abstraction of ImageTiles. These are sub-images of
+        the source file that have lots of different properties: show, don't show, zoom in, zoom out, bright, darken,
+        emphasize, scatter, and room for lots more.</p>
+
+    <p>After a semester spent mired mostly in C++ with a little Python, I took the liberty of doing this in Java, which
+        was... really nice, actually. It was fun to be able to get ideas out without tripping over syntax. I will get
+        around to learning Python properly someday, but that is not this day! The source code is here: <a
+                href="https://github.com/ecurtin/PhotoCollage/">https://github.com/ecurtin/PhotoCollage/</a></p>
+
+    <p>Using this custom library, which relied on some oldie but goodie and MUCH MORE NICELY FORMATTED code from my dear
+        old writes-Java-like-its-70's-Fortran computer graphics professor, I built an application to make collages and
+        an application to make composites.</p>
+
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/emilymaycurtin/24139061985/in/datetaken/"
+       title="BowieCollage"><img class="center" src="https://farm6.staticflickr.com/5639/24139061985_a50b10419c_o.png"
+                                 width="600" height="600" alt="BowieCollage"></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+    <p>The applications follow roughly the same format:</p>
+    <ul>
+        <li>Input the image</li>
+        <li>Split it into ImageTiles</li>
+        <li>Pipe these imageTiles through a number of transformations including
+            <ul>
+                <li>Scatter: move the coordinates for where the tile will be rendered to a random location a random
+                    distance away
+                </li>
+                <li>Show/Hide: For the collage, randomly show or hide the tile based on a density parameter</li>
+                <li>Brighten/Darken: make the image randomly a little brighter or a little darker (I found a little goes
+                    a looong way for this one)
+                </li>
+                <li>Zoom: randomly zoom the tile in or out.</li>
+                <li>Others! It's super easy to write a method to do something to a single tile and simply add it in the
+                    main run loop of the program.
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/emilymaycurtin/24030956762/in/datetaken/"
+       title="strawberryComposite"><img class="center"
+                                        src="https://farm2.staticflickr.com/1668/24030956762_e9f461e63a_b.jpg"
+                                        width="760" height="510" alt="strawberryComposite"></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+    <p>Bonus, although I haven't gotten around to it, this is embarrassingly parallel. I could speed this up IMMENSELY
+        by generating a bunch of worker threads to each work on their own tile or small set of tiles.</p>
+
+    <p>And speaking of things I haven't gotten around to yet, there's lot of room for improvement here, especially in
+        the collage. A few ideas:</p>
+
+    <p>To increase the analog or human jitter realism:</p>
+    <ul>
+        <li>Different kinds of exposure modification beyond just lighten/darken</li>
+        <li>Random rotation within a specified range</li>
+        <li>Color distortion to simulate differences apparent in the chemical development process</li>
+    </ul>
+    <p>To further the aesthetic qualities:</p>
+    <ul>
+        <li>Apply scatter based on heuristics instead of pure probability. Move in the direction of the gradient of the
+            tile?
+        </li>
+        <li>Apply heuristics and/or computer vision techniques to detect interesting features and large swaths of
+            similar space, emphasizing and de-emphasizing as appropriate (is de-emphasizing a word?)
+        </li>
+    </ul>
+    <p>To make the application more friendly/usable, since apparently nobody likes one-liner shell scripts with ~18
+        anonymous numerical parameters</p>
+    <ul>
+        <li>An actual GUI! Something I haven't had to think about since I started doing Systems! Maybe github.io? Maybe just a .jar?</li>
+        <li>Paralleliize (how on earth do you spell that?) for speed</li>
+        <li>Perhaps an interface where the user can graphically select regions of interest as input</li>
+    </ul>
+
+    <p>Finally, Professor Irfan Essa:</p>
+
+    <a data-flickr-embed="true" href="https://www.flickr.com/photos/emilymaycurtin/24139068935/in/datetaken/"
+       title="EssaComposite"><img class="center" src="https://farm2.staticflickr.com/1670/24139068935_5fb6a0cf11_o.png"
+                                  width="337" height="414" alt="EssaComposite"></a>
+    <script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+
+
+    <footer class="site-footer">
+        <span class="site-footer-owner">Brought to you by the letter E for <a href="About.html">Emily</a> &copy;
+            2016.</span>
+        <span class="site-footer-credits">This page uses a customized version of the <a
+                href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a
+                href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+    </footer>
+</section>
+</body>
+</html>
