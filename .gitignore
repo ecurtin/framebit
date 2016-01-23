@@ -5,9 +5,10 @@ config/secrets.yml
 */.DS_Store
 */*/.DS_Store
 .idea
-project/project/
-project/target/
+project/
 framebit.iml
 target/resolution-cache/
 target/streams/
 target/.history
+src/
+target/
