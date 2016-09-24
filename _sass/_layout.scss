@@ -11,9 +11,10 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-family: $base-accent-font-family;
+    font-size: 3em;
     font-weight: 300;
-    line-height: 56px;
+    line-height: 3em;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -190,6 +191,8 @@
 }
 
 .post-link {
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
     display: block;
     font-size: 24px;
 }
@@ -204,6 +207,7 @@
 }
 
 .post-title {
+    font-family: $base-accent-font-family;
     font-size: 42px;
     letter-spacing: -1px;
     line-height: 1;
@@ -240,3 +244,49 @@
         }
     }
 }
+
+/**
+* quotes
+*/
+
+.quote-body {
+    margin: 0 auto;
+    max-width: 40em;
+}
+
+a.quote-link {
+    @extend .quote-body;
+
+    color: #312d2d;
+    //font-family: 'Kotta One', serif;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 1.5em;
+
+
+
+    &:hover {
+        color: lighten($brand-color, 20%);
+        text-decoration:none;
+        background-color:#778899;
+    }
+    //a{
+    //    color: #e3d222;
+    //
+    //    text: {
+    //        transform: uppercase;
+    //        align: center;
+    //        decoration: none;
+    //    }
+    //    font: {
+    //        size: 4.875em;
+    //        weight: 900;
+    //    }
+    //}
+}
+//
+//a.quote-link:hover {
+//    color:#23d222;
+//    text-decoration:none;
+//    background-color:#778899;
+//}

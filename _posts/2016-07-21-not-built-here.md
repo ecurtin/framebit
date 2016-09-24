@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Didn't Build It Here: Moving this site to Jekyll in like four seconds"
+title:  "Didn't Build It Here: Moving to Jekyll"
 date:   2016-07-21 11:22:00 -0400
-categories: code, website
+categories: code website
 ---
 
 I've been through so many half-ass iterations on this site.
