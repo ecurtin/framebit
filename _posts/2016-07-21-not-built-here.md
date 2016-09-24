@@ -5,7 +5,7 @@ date:   2016-07-21 11:22:00 -0400
 categories: code website
 ---
 
-I've been through so many half-ass iterations on this site.
+I've been through so many half-ass iterations on this poor website. Bless its heart.
 
 I had more whole-ass implementations back in the day, starting with iWeb. Gotta love those skeuomorphic themes.
 

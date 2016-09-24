@@ -63,7 +63,7 @@ figcaption {
 
 
 
-/**
+/*
  * Lists
  */
 ul, ol {
@@ -84,7 +84,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-style: $base-accent-font-family;
-    font-weight: $base-font-weight;
+    font-weight: 700;
 }
 
 
