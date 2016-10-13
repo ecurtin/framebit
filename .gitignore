@@ -12,3 +12,8 @@ target/streams/
 target/.history
 src/
 target/
+_site
+.sass-cache
+.jekyll-metadata
+.idea
+framebit.iml
