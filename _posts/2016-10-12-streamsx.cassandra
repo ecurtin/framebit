@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "New Open Source: streamsx.cassandra"
+date:   2016-10-12 11:22:00 -0400
+categories: [open source, code, scala]
+---
+
+Woo! Just open-sourced a project I've been plugging away at for TWC, the I'm sure soon-to-be-world-famous [streamsx.cassandra](https://github.com/IBMStreams/streamsx.cassandra).
+
+This is a sink operator for IBM Streams that enables writing Streams tuples directly to Cassandra in a fast and scalable manner.
+It's a thin Java facade (some of the @notations required for Streams Java operators didn't play too well when used in native Scala) for a Scala implementation.
+
+I think this is the first legit open source project that I've originated or worked on.
+(I don't think this website or the [HokeyPokeyTree](https://github.com/ecurtin/HokeyPokeyTree) really count)
+#devcred, #opensource, #realdeveloper, etc. Although maybe I have to publish something to npm before using hashtags about it?
