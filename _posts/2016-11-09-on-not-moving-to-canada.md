@@ -1,15 +1,16 @@
 ---
 layout: post
 title:  "On Not Moving To Canada"
-date:   2016-11-09 07:31:00 -0400
-categories: []
+date:   2016-11-09 08:00:19 -0500
+categories: essays
 ---
 
 Last night, while we as a nation elected Trump, we as a nation also collectively DDOS'd the Canadian immigration website, crashing it sometime in the late evening.
 
 My citizenship bestows on me a great deal of freedom and responsibility.
-I, along with my fellow citizens, am charged with being a standard bearer for the ideas of some 18th century hippies, and by heaven above are their ideas beautiful.
-And by heaven above are their ideas hard to implement.
+I, along with my fellow citizens, am charged with being a standard bearer for the ideas of some 18th century hippies.
+
+By heaven above, are their ideas beautiful. And, by heaven above, are their ideas hard to implement.
 
 This country, unlike most on this blue planet, was not built on ethnic identity, shared history, or geographic tradition.
 This country was built on ideas: ideas about democracy, freedom, liberty, and working with people you don't like.
