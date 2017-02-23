@@ -7,6 +7,8 @@ categories: essays
 
 Last night, while we as a nation elected Trump, we as a nation also collectively DDOS'd the Canadian immigration website, crashing it sometime in the late evening.
 
+It's tempting, I'll admit. Turn away from the ugliness and get out dodge and go somewhere with less yelling. But I can't.
+
 My citizenship bestows on me a great deal of freedom and responsibility.
 I, along with my fellow citizens, am charged with being a standard bearer for the ideas of some 18th century hippies.
 
