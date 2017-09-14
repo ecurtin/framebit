@@ -6,3 +6,4 @@ categories: [conference, talks, spark, parquet]
 ---
 
 {% youtube _0Wpwj_gvzg %}
+<!--more-->

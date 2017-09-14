@@ -8,7 +8,7 @@ categories: code website
 I've been through so many half-ass iterations on this poor website. Bless its heart.
 
 I had more whole-ass implementations back in the day, starting with iWeb. Gotta love those skeuomorphic themes.
-
+<!--more-->
 Then, after realizing there were reasons why serious people didn't do iWeb, I moved to Wordpress and felt pretty
 cool for have conquered the technical curve of getting that going.
 

@@ -6,7 +6,7 @@ categories: art code
 ---
 
 I listened to a lot of Bowie during this project. It was roughly period appropriate.
-
+<!--more-->
 Input: The classic Aladdin Sane cover:
 
 [![DavidBowie](https://farm6.staticflickr.com/5639/23843394850_687950a302_o.jpg)](https://www.flickr.com/photos/emilymaycurtin/23843394850/in/datetaken/ "DavidBowie")
