@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Art"
+---
+
+{% for artt in site.art %}
+  <div class="art">
+    <h2><a href="{{ artt.url }}">{{ artt.title }}</a></h2>
+    {{ artt.content }}
+  </div>
+{% endfor %}

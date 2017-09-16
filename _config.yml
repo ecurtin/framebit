@@ -17,6 +17,21 @@ github_username:  ecurtin
 
 excerpt: <!--more-->
 
+# Collections, everything but the blog
+collections:
+  photos:
+    output: true
+    permalink: /photos/:path/
+  art:
+    output: true
+    permalink: /art/:path/
+  tech:
+    output: true
+    permalink: /tech/:path/
+  film:
+    output: true
+    permalink: /film/:path/
+
 # Build settings
 kramdown:
   input: GFM

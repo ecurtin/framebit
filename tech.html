@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Tech"
+---
+
+{% for techh in site.tech %}
+  <div class="tech">
+    <h2><a href="{{ techh.url }}">{{ techh.title }}</a></h2>
+    {{ techh.content }}
+  </div>
+{% endfor %}

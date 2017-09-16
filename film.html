@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Film"
+---
+
+{% for filmm in site.film %}
+  <div class="filmm">
+    <h2><a href="{{ filmm.url }}">{{ filmm.title }}</a></h2>
+    {{ filmm.content }}
+  </div>
+{% endfor %}
