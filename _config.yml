@@ -17,6 +17,9 @@ github_username:  ecurtin
 
 excerpt: <!--more-->
 
+gems:
+  - octopress-debugger
+
 # Collections, everything but the blog
 collections:
   photos:
