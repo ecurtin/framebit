@@ -10,9 +10,10 @@ layout: default
 
   <div class="post-content">
 
-    {% assign video_embed = page.video_link %}
-
-    {% oembed {{video_embed}} %}
+    {% if page.video_link %}
+      {% assign video_embed = page.video_link %}
+      {% oembed {{video_embed}} %}
+    {% endif %}
 
     {{ content }}
   </div>

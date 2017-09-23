@@ -3,7 +3,9 @@ layout: page
 title: "Tech"
 ---
 
-{% for techh in site.tech %}
+{% assign sorted = (site.tech | sort: 'weight') %}
+
+{% for techh in sorted %}
   <div class="tech">
     <h2><a href="{{ techh.url }}">{{ techh.title }}</a></h2>
     {{ techh.content }}

@@ -46,14 +46,28 @@ module Jekyll
 
     def initialize(tag_name, text, tokens)
       super
+      print tag_name + "\n"
+      print text + "\n"
       arguments = text.strip.split(' ')
       @text = arguments[0]
       @attributes = map_to_object(arguments[1..-1])
     end
 
     def render(context)
+      #
+      # # output.each do |key, value|
+      # #     puts key + ' : ' + value
+      # # end
+      # puts "BUTTSEX"
+      #
+      # @attributes.each do |key, value|
+      #   puts "#{key}:#{value}"
+      # end
+      # puts "MOAR BUTTSETS"
+
       # pipe param through liquid to make additional replacements possible
       url = Liquid::Template.parse(@text).render context
+      puts "THE URL I HAVE, BECUASE I'M AMAZING, IS " + url 
       url = url.strip! || url.strip
 
       # oembed look up

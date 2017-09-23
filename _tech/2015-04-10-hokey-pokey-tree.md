@@ -3,6 +3,7 @@ layout: github
 title:  "ecurtin/HokeyPokeyTree"
 date: 2015-04-10 00:00:00 -0400
 github-link: https://github.com/ecurtin/HokeyPokeyTree
+weight: 100
 ---
 The HokeyPokeyTree is a generic tree structure useful for many different applications.
 
