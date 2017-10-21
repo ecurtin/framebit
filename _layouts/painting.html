@@ -5,19 +5,12 @@ layout: default
 
 <article class="painting" itemscope itemtype="http://pending.schema.org/Painting">
 
-    <header class="post-header">
-        <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
-    </header>
-
     <div class=painting-img>
         <img src="{{ base }}{{ page.image }}">
     </div>
 
-    <div class="material">
-        {% if page.medium %} <span itemprop="material"><span>{{ page.medium }}</span></span>{% endif %} •
-    </div>
-    <div class="painting-date">
-        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%b %-d, %Y" }}</time>
-    </div>
+    <header class="post-meta">
+        {% if page.medium %} <span itemprop="material"><span>{{ page.medium }}</span></span>{% endif %} • <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="dateCreated">{{ page.date | date: "%b %-d, %Y" }}</time>
+    </header>
     {{ content }}
 </article>
