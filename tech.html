@@ -3,7 +3,7 @@ layout: page
 title: "Tech"
 ---
 
-{% assign sorted = (site.tech | sort: 'weight') %}
+{% assign sorted = site.tech | sort: 'weight' %}
 
 {% for techh in sorted %}
   <div class="tech">
