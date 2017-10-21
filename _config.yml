@@ -9,16 +9,13 @@
 title: FrameBit
 email: emily@framebit.org
 description: > # this means to ignore newlines until "baseurl:"
-  Emily May Curtin rambles about art, meteorology, scala development, economics, and pretzels
+  Emily May Curtin is an artist and a software engineer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://framebit.org" # the base hostname & protocol for your site
 twitter_username: emilymaycurtin
 github_username:  ecurtin
 
 excerpt: <!--more-->
-
-gems:
-  - octopress-debugger
 
 # Collections, everything but the blog
 collections:

@@ -4,10 +4,10 @@ title:  "Letter to Hilde"
 date:   2016-11-11 23:46:19 -0500
 categories: essays
 ---
-Hilde,
+Hilde, I haven't even gotten a chance to hold you at all yet, and already I want to hold you a little tighter.
 
-I haven't even gotten a chance to hold you at all yet, and already I want to hold you a little tighter.
 <!--more-->
+
 Beautiful girl. You got your mama's big, questioning brown eyes and your daddy's quick and open smile.
 And you got your smooth-as-silk dark chocolate skin from both of them.
 What a blessing, you're gonna grow up to be a striking beauty just your mama and your grandmas.

@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Art"
+---
+
+{% assign sorted = (site.art | sort: 'weight') %}
+
+{% for painting in sorted %}
+  <div class="painting">
+    <h2><a href="{{ painting.url }}">{{ painting.title }}</a></h2>
+    <img src="{{ base }}{{ painting.image }}">
+    
+  </div>
+{% endfor %}
+
