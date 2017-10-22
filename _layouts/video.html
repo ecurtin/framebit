@@ -12,7 +12,7 @@ layout: default
 
     {% assign video_embed = page.video_link %}
 
-    {% oembed {{video_embed}} %}
+    {% oembed {{video_embed}} width=640 height=360 %}
 
     {{ content }}
   </div>
