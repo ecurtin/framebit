@@ -1,10 +1,11 @@
 ---
-layout: conference
-title:  "Spark Summit EU 2017: Spark-Bench"
-date: 2017-09-20 00:00:00 -0400
-conference-link: https://spark-summit.org/eu-2017/events/apache-spark-bench-simulate-test-compare-exercise-and-yes-benchmark/
-weight: 2
+layout: post
+title:  "Talk: Spark-Bench"
+description: Spark Summit EU 2017
+img: "/img/icons/spark_summit_logo.png"
 ---
+
+https://spark-summit.org/eu-2017/events/apache-spark-bench-simulate-test-compare-exercise-and-yes-benchmark/
 
 spark-bench is an open-source benchmarking tool, and it’s also so much more.
 

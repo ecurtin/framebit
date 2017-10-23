@@ -1,15 +1,49 @@
 ---
 layout: page
-title: "Art"
+permalink: /art/
+title: art
+description:
 ---
 
-{% assign sorted = site.art | sort: 'weight' %}
+{% for project in site.art reversed %}
 
-{% for painting in sorted %}
-  <div class="painting">
-    <h2><a href="{{ painting.url }}">{{ painting.title }}</a></h2>
-    <img src="{{ base }}{{ painting.image }}">
-
+{% if project.redirect %}
+<div class="project">
+  <div class="thumbnail">
+    <a href="{{ project.redirect }}" target="_blank">
+      {% if project.img %}
+      <img class="thumbnail" src="{{ project.img }}"/>
+      {% else %}
+      <div class="thumbnail blankbox"></div>
+      {% endif %}
+      <span>
+            <h1>{{ project.title }}</h1>
+            <br/>
+            <p>{{ project.description }}</p>
+        </span>
+    </a>
   </div>
-{% endfor %}
+</div>
+{% else %}
 
+<div class="project ">
+  <div class="thumbnail">
+    <a href="{{ site.baseurl }}{{ project.url }}">
+      {% if project.img %}
+      <img class="thumbnail" src="{{ project.img }}"/>
+      {% else %}
+      <div class="thumbnail blankbox"></div>
+      {% endif %}
+      <span>
+            <h1>{{ project.title }}</h1>
+            <br/>
+            <p>{{ project.date | date: '%B %-d, %Y' }}</p>
+            <p>{{ project.description }}</p>
+        </span>
+    </a>
+  </div>
+</div>
+
+{% endif %}
+
+{% endfor %}
