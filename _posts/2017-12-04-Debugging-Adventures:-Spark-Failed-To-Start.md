@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Debugging Adventures: Spark Failed To Start
+title: "Debugging Adventures: Spark Failed To Start"
+date:   2017-12-04 00:00:00 -0400
 ---
 
 Today after browsing the latest William Carlos Williams memes on Twitter, I figured it was time to actually do work.
@@ -9,7 +10,7 @@ Today after browsing the latest William Carlos Williams memes on Twitter, I figu
 cd ~/git/spark-bench
 sbt test
 ```
-only to be met with a mountain of red. 
+only to be met with a mountain of red.
 ```
 java.lang.NoClassDefFoundError: Could not initialize class com.ibm.sparktc.sparkbench.testfixtures.SparkSessionProvider$
 	at com.ibm.sparktc.sparkbench.testfixtures.BuildAndTeardownData.<init>(BuildAndTeardownData.scala:35)
@@ -50,7 +51,7 @@ java.lang.NoClassDefFoundError: Could not initialize class com.ibm.sparktc.spark
 	at java.lang.Thread.run(Thread.java:748)
 [error] Could not run test com.ibm.sparktc.sparkbench.NotebookSimTest: java.lang.NoClassDefFoundError: Could not initialize class com.ibm.sparktc.sparkbench.testfixtures.SparkSessionProvider$
 ```
-Cool. That's fun. Everything was totes fine yesterday, now I can't make a SparkSession. 
+Cool. That's fun. Everything was totes fine yesterday, now I can't make a SparkSession.
 
 First let's make sure sbt hasn't done anything weird. And let's also try checking out master and seeing if it's just my changes.
 
@@ -71,7 +72,7 @@ What if I try a spark-shell?
 ```
 /opt/spark-2.1.1-bin-hadoop2.7/bin/spark-shell
 ```
-Wait for it, wait for it, wait for it, JVM startup times are really sad, 
+Wait for it, wait for it, wait for it, JVM startup times are really sad,
 ```
 Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 Setting default log level to "WARN".
@@ -146,7 +147,7 @@ Welcome to
 
 I love how it'll still get all the way to the ASCII art and the shell even if everything has blown up. Welcome to your busted Spark-Shell! It's like a Scala shell but with a little ASCII art and more error messages! But at least I know it's not Spark-Bench that's the issue.
 
-Now let's stumble around with permissions issues because maybe magic elves changed permissions on stuff without me noticing and I can't be bothered to `ls -l /opt`. 
+Now let's stumble around with permissions issues because maybe magic elves changed permissions on stuff without me noticing and I can't be bothered to `ls -l /opt`.
 
 Sudo make me a sandwich:
 ```
@@ -233,4 +234,3 @@ export SPARK_LOCAL_HOSTNAME=localhost
 ```
 
 Voila! It works! Now on to make my unit tests work like a boss.
-
