@@ -4,7 +4,7 @@ title: travel light
 permalink: /travel-light/
 ---
 
-{% oembed https://vimeo.com/219959851 %}
+{% youtube "https://vimeo.com/219959851" %}
 <br/>
 In 2012 my dear friend [Lindsay Thompson](http://www.suchtalltales.com/) 
 approached me with a dream, a pitch, and an offer.

@@ -7,7 +7,7 @@ img: "/img/icons/spark_summit_logo.png"
 
 https://spark-summit.org/east-2017/events/spark-parquet-in-depth/
 
-{% oembed https://www.youtube.com/watch?v=_0Wpwj_gvzg width=640 height=360 %}
+{% youtube "https://www.youtube.com/watch?v=_0Wpwj_gvzg" %}
 
 This is a talk I gave at Spark Summit East 2017 with my mentor Robbie Strickland.
 
