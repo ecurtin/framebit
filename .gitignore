@@ -23,6 +23,7 @@ picture-workspace/
 
 # For Pelican
 output
+*.pyc
 
 # My stuff
 content-for-reference
