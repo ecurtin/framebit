@@ -20,3 +20,9 @@ framebit.iml
 *.xcf
 picture-workspace/
 /img/giant-paintings/
+
+# For Pelican
+output
+
+# My stuff
+content-for-reference
