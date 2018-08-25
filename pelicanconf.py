@@ -5,6 +5,10 @@ from __future__ import unicode_literals
 # Specify a customized theme, via path relative to the settings file
 THEME = "theme"
 
+# THEME_STATIC_DIR = 'theme/static'
+THEME_STATIC_PATHS = ['static']
+CSS_FILE = 'main.css'
+
 AUTHOR = u'Emily Curtin'
 SITENAME = u'Emily Curtin'
 SITEURL = ''
