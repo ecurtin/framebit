@@ -1,3 +1,51 @@
 body {
-    background-color: #517918;
+    padding: 2em;
+    background-color: saddlebrown;
 }
+
+/*!* Mobile first, relying on source ordering *!*/
+/*.flexcontainer {*/
+    /*display: flex;*/
+    /*flex: 1 100%;*/
+/*}*/
+
+/* Large screens */
+@media screen and (min-width: 800px) {
+    /* We invert order of first sidebar and main
+     * And tell the main element to take twice as much width as the other two sidebars
+     */
+    /*.flexcontainer {*/
+    /*flex-direction: row;*/
+    /*}*/
+    body {
+        background-color: #000000
+    }
+}
+
+/* Smaller screens */
+@media screen and (max-width: 600px) {
+    /*.flexcontainer {*/
+        /*flex-direction: column;*/
+    /*}*/
+    body {
+        background-color: #FFFF00
+    }
+}
+
+
+
+/*header#banner {*/
+    /*background-color: #990000;*/
+/*}*/
+
+/*nav#top-nav {*/
+    /*background-color: lawngreen;*/
+/*}*/
+
+/*footer {*/
+    /*background-color: magenta;*/
+/*}*/
+
+/*div#content-wrapper {*/
+    /*background-color: cyan;*/
+/*}*/
