@@ -3,30 +3,27 @@ body {
     background-color: saddlebrown;
 }
 
-/*!* Mobile first, relying on source ordering *!*/
-/*.flexcontainer {*/
-    /*display: flex;*/
-    /*flex: 1 100%;*/
-/*}*/
+/* Mobile first, relying on source ordering */
+.flexcontainer {
+    display: flex;
+    flex: 1 100%;
+}
 
 /* Large screens */
 @media screen and (min-width: 800px) {
-    /* We invert order of first sidebar and main
-     * And tell the main element to take twice as much width as the other two sidebars
-     */
-    /*.flexcontainer {*/
-    /*flex-direction: row;*/
-    /*}*/
+    .flexcontainer {
+        flex-direction: row;
+    }
     body {
-        background-color: #000000
+        background-color: #00FFFF
     }
 }
 
 /* Smaller screens */
-@media screen and (max-width: 600px) {
-    /*.flexcontainer {*/
-        /*flex-direction: column;*/
-    /*}*/
+@media screen and (max-width: 799px) {
+    .flexcontainer {
+        flex-direction: column;
+    }
     body {
         background-color: #FFFF00
     }
