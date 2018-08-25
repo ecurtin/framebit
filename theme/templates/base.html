@@ -13,10 +13,11 @@
 </head>
 
 <body id="index" class="home">
+<div class="flexcontainer">
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
         </header><!-- /#banner -->
-        <nav id="menu"><ul>
+        <nav id="top-nav"><ul>
         {% for title, link in MENUITEMS %}
             <li><a href="{{ link }}">{{ title }}</a></li>
         {% endfor %}
@@ -31,14 +32,17 @@
             {% endfor %}
           {% endif %}
         {% endif %}
-        </ul></nav><!-- /#menu -->
+        </ul></nav><!-- /#top-nav -->
+        <div id="content-wrapper">
         {% block content %}
         {% endblock %}
+        </div>
         <footer id="contentinfo" class="body">
                 <address id="about" class="vcard body">
                 Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
                 which takes great advantage of <a href="http://python.org">Python</a>.
                 </address><!-- /#about -->
         </footer><!-- /#contentinfo -->
+</div>
 </body>
 </html>
