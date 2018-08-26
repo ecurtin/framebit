@@ -4,6 +4,8 @@ title: tech
 permalink: /tech/
 ---
 
+HURDY GURDY GURR TECHNOLOGHY
+
 {% for project in site.tech reversed %}
 
 {% if project.redirect %}

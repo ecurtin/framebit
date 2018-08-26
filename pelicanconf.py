@@ -7,11 +7,11 @@ THEME = "theme"
 
 # THEME_STATIC_DIR = 'theme/static'
 THEME_STATIC_PATHS = ['static']
-CSS_FILE = 'main.css'
+CSS_FILE = 'output.css'
 
 AUTHOR = u'Emily Curtin'
 SITENAME = u'Emily Curtin'
-SITEURL = ''
+SITEURL = 'http://framebit.org'
 
 PATH = 'content'
 
@@ -40,3 +40,12 @@ DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+DISPLAY_PAGES_ON_MENU = False
+DISPLAY_CATEGORIES_ON_MENU = False
+
+MENUITEMS = (
+    ('About', '/pages/about.html'),
+    ('Painting', '/pages/painting.html'),
+    ('Tech', '/pages/tech.html')
+)

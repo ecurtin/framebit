@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Painting</title>
+    <meta name="date" content="2012-07-09 22:28" />
+    <meta name="modified" content="2012-07-10 20:14" />
+    <meta name="category" content="yeah" />
+    <meta name="authors" content="Alexis Métaireau, Conan Doyle" />
+    <meta name="summary" content="Short version for index and feeds" />
+</head>
+
+<body>
+{% block content %}
+    {% for project in site.painting reversed %}
+
+    {% if project.redirect %}
+    <div class="project">
+        <div class="thumbnail">
+            <a href="{{ project.redirect }}" target="_blank">
+                {% if project.thumbnailimg %}
+                <img class="thumbnail" src="{{ project.thumbnailimg }}"/>
+                {% elsif project.img %}
+                <img class="thumbnail" src="{{ project.img }}"/>
+                {% else %}
+                <div class="thumbnail blankbox"></div>
+                {% endif %}
+                <span>
+                <h1>{{ project.title }}</h1>
+                <br/>
+                <p>{{ project.description }}</p>
+            </span>
+            </a>
+        </div>
+    </div>
+    {% else %}
+
+    <div class="project ">
+        <div class="thumbnail">
+            <a href="{{ site.baseurl }}{{ project.url }}">
+                {% if project.thumbnailimg %}
+                <img class="thumbnail" src="{{ project.thumbnailimg }}"/>
+                {% elsif project.img %}
+                <img class="thumbnail" src="{{ project.img }}"/>
+                {% else %}
+                <div class="thumbnail blankbox"></div>
+                {% endif %}
+                <span>
+                <h1>{{ project.title }}</h1>
+                <br/>
+                <p>{{ project.date | date: '%B %-d, %Y' }}</p>
+                <p>{{ project.description }}</p>
+            </span>
+            </a>
+        </div>
+    </div>
+
+        {% endif %}
+
+        {% endfor %}
+{% endblock %}
+
+</body>
+</html>

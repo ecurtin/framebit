@@ -1,22 +1,70 @@
+html {
+}
+
 body {
     padding: 2em;
-    background-color: saddlebrown;
+    font-family: cardo, georgia, serif;
+    font-size: 100%;
+
+    /*background-color: saddlebrown;*/
+}
+
+h1, h2, h3, h4 {
+    color: #000;
+    font-family: helvetica, arial, geneva, sans-serif;
+    font-weight: 400;
+}
+
+.post-info {
+    color: #cdcdcd;
+    font-family: helvetica, arial, geneva, sans-serif;
+    font-size: 0.75rem;
+    font-style: italic;
+}
+
+p {
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
 }
 
 /* Mobile first, relying on source ordering */
 .flexcontainer {
     display: flex;
-    flex: 1 100%;
 }
 
-/* Large screens */
-@media screen and (min-width: 800px) {
-    .flexcontainer {
-        flex-direction: row;
-    }
-    body {
-        background-color: #00FFFF
-    }
+header#banner {
+    /*background-color: #990000;*/
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.top-nav {
+    /*background-color: lawngreen;*/
+
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 150px;
+    width: 100px;
+    min-width: 100px;
+}
+
+.top-nav > ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+footer {
+    /*background-color: magenta;*/
+}
+
+div#content-wrapper {
+    /*background-color: cyan;*/
 }
 
 /* Smaller screens */
@@ -24,25 +72,33 @@ body {
     .flexcontainer {
         flex-direction: column;
     }
-    body {
-        background-color: #FFFF00
+
+    .top-nav {
+        height: 100px;
+        margin: 20px 8% !important;
+        order: 4;
+        width: 84%;
+    }
+    .top-nav ul li {
+        color: #dd1144;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: 6px;
+        margin-bottom: 0px;
+        margin-left: 6px;
     }
 }
 
+/* Larger screens */
+@media screen and (min-width: 800px) {
+    .flexcontainer {
+        flex-direction: row;
+    }
+    header#banner { flex: 3 0px; }
+    .main { flex: 1; }
+    .nav#top-nav { order: 1; }
+    div#content-wrapper { order: 2; }
+    footer { order: 3; }
+}
 
-
-/*header#banner {*/
-    /*background-color: #990000;*/
-/*}*/
-
-/*nav#top-nav {*/
-    /*background-color: lawngreen;*/
-/*}*/
-
-/*footer {*/
-    /*background-color: magenta;*/
-/*}*/
-
-/*div#content-wrapper {*/
-    /*background-color: cyan;*/
-/*}*/
