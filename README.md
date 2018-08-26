@@ -7,6 +7,11 @@ the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site gener
 
 1. Clone the site.
 
+2. Compile the Sass to CSS
+    ```bash
+    sass --watch theme/static/sass/collector.sass:theme/static/css/output.css
+    ```
+
 2. Do the site generation
     ```bash
     pelican content
