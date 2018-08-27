@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title:  "Letter to Hilde"
 date:   2016-11-11 23:46:19 -0500
 categories: essays

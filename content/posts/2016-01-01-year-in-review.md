@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title:  "2015 Year In Review"
 date:   2016-01-01 09:25:00 -0400
 categories: short rambles

@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title: "Debugging Adventures: Spark Failed To Start"
 date:   2017-12-04 00:00:00 -0400
 ---

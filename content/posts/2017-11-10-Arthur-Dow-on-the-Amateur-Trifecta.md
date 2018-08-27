@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title: Arthur Dow on the Amateur Trifecta
 ---
 ```text

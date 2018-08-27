@@ -1,12 +1,14 @@
----
-layout: post
-title:  "Hockney Style Photo Collages and Composites"
-date:   2014-04-20 22:16:13 -0400
-categories: art code
----
+Template: article
+Title:  "Hockney Style Photo Collages and Composites"
+Date:   2014-04-20 22:16:13 -0400
+Categories: art code
+Thumbnail: https://farm6.staticflickr.com/5674/23510842914_bf9fe8aafb_o.png
+Summary: 
+    Creating a custom image manipulator in the style of David Hockney collages 
+    using Java because I didn't know any better at the time.
 
 I listened to a lot of Bowie during this project. It was roughly period appropriate.
-<!--more-->
+
 Input: The classic Aladdin Sane cover:
 
 [![DavidBowie](https://farm6.staticflickr.com/5639/23843394850_687950a302_o.jpg)](https://www.flickr.com/photos/emilymaycurtin/23843394850/in/datetaken/ "DavidBowie")

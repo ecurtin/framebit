@@ -11,7 +11,9 @@ CSS_FILE = 'output.css'
 
 AUTHOR = u'Emily Curtin'
 SITENAME = u'Emily Curtin'
-SITEURL = 'http://framebit.org'
+# SITEURL = 'http://framebit.org'
+SITEURL = ''
+
 
 PATH = 'content'
 
@@ -46,6 +48,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 MENUITEMS = (
     ('About', '/pages/about.html'),
-    ('Painting', '/pages/painting.html'),
-    ('Tech', '/pages/tech.html')
+    ('Painting', '/painting.html'),
+    ('Tech', '/tech.html'),
+    ('Blog', '/blog.html')
 )
+
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'blog', 'painting', 'tech']
+# TEMPLATE_PAGES = {'/Users/ecurtin/git/framebit/theme/templates/blog.html': 'blog.html'}

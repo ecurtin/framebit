@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title:  "New Open Source: streamsx.cassandra"
 date:   2016-10-12 11:22:00 -0400
 categories: [open source, code, scala]

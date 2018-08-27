@@ -1,10 +1,11 @@
 ---
-layout: quote
-date:   2016-09-21 11:22:00 -0400
-author: Andrew Sullivan
-source: http://nymag.com/selectall/2016/09/andrew-sullivan-technology-almost-killed-me.html
-sourcetext: I Used to Be a Human Being
-categories: faith culture
+Template: quote
+Title: faith and noise
+Date:   2016-09-21 11:22:00 -0400
+Author: Andrew Sullivan
+Source: http://nymag.com/selectall/2016/09/andrew-sullivan-technology-almost-killed-me.html
+Sourcetext: I Used to Be a Human Being
+Categories: faith culture
 ---
 
 We didn’t go from faith to secularism in one fell swoop.... 
