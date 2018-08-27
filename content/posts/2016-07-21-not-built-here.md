@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title:  "Didn't Build It Here: Moving to Jekyll"
 date:   2016-07-21 11:22:00 -0400
 categories: code website

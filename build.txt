@@ -1,0 +1,97 @@
+DEBUG: Pelican version: 3.7.1
+DEBUG: Python version: 2.7.10
+DEBUG: Adding current directory to system path
+DEBUG: Temporarily adding PLUGIN_PATHS to system path
+DEBUG: Restoring system path
+DEBUG: Template list: [u'!simple/archives.html', u'!simple/article.html', u'!simple/author.html', u'!simple/authors.html', u'!simple/base.html', u'!simple/categories.html', u'!simple/category.html', u'!simple/gosquared.html', u'!simple/index.html', u'!simple/page.html', u'!simple/pagination.html', u'!simple/period_archives.html', u'!simple/tag.html', u'!simple/tags.html', u'!simple/translations.html', u'archives.html', u'article.html', u'artwork.html', u'author.html', u'authors.html', u'base.html', u'blog.html', u'categories.html', u'category.html', u'gosquared.html', u'index.html', u'page.html', u'pagination.html', u'painting.html', u'period_archives.html', u'quote.html', u'tag.html', u'tags.html', u'tech.html', u'translations.html']
+DEBUG: Read file posts/2016-11-11-letter-to-hilde.md -> Article
+DEBUG: Signal article_generator_preread.send(ArticlesGenerator)
+DEBUG: Successfuly imported extension module "markdown.extensions.extra".
+DEBUG: Successfuly imported extension module "markdown.extensions.smart_strong".
+DEBUG: Successfully loaded extension "markdown.extensions.smart_strong.SmartEmphasisExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.fenced_code".
+DEBUG: Successfully loaded extension "markdown.extensions.fenced_code.FencedCodeExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.footnotes".
+DEBUG: Successfully loaded extension "markdown.extensions.footnotes.FootnoteExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.attr_list".
+DEBUG: Successfully loaded extension "markdown.extensions.attr_list.AttrListExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.def_list".
+DEBUG: Successfully loaded extension "markdown.extensions.def_list.DefListExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.tables".
+DEBUG: Successfully loaded extension "markdown.extensions.tables.TableExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.abbr".
+DEBUG: Successfully loaded extension "markdown.extensions.abbr.AbbrExtension".
+DEBUG: Successfully loaded extension "markdown.extensions.extra.ExtraExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.codehilite".
+DEBUG: Successfully loaded extension "markdown.extensions.codehilite.CodeHiliteExtension".
+DEBUG: Successfuly imported extension module "markdown.extensions.meta".
+DEBUG: Successfully loaded extension "markdown.extensions.meta.MetaExtension".
+DEBUG: Signal article_generator_context.send(ArticlesGenerator, <metadata>)
+DEBUG: Read file posts/2016-09-21-faith-and-noise.md -> Article
+DEBUG: Read file posts/2017-11-10-Arthur-Dow-on-the-Amateur-Trifecta.md -> Article
+DEBUG: Read file posts/2017-11-12-Elizabeth-O'Conner-on-Envy.md -> Article
+DEBUG: Read file posts/2016-12-01-talking-about-tech.md -> Article
+DEBUG: Read file posts/2014-04-20-david-hockney-style-collages.md -> Article
+DEBUG: Read file posts/2017-12-04-Debugging-Adventures:-Spark-Failed-To-Start.md -> Article
+DEBUG: Read file posts/2017-09-12-best-ideas.md -> Article
+DEBUG: Read file posts/2016-01-01-year-in-review.md -> Article
+DEBUG: Read file posts/2016-11-09-on-not-moving-to-canada.md -> Article
+DEBUG: Read file posts/2017-02-22-spark-plus-parquet.md -> Article
+DEBUG: Read file posts/2016-07-21-not-built-here.md -> Article
+DEBUG: Read file pages/travel-light.md -> Page
+DEBUG: Signal page_generator_preread.send(PagesGenerator)
+DEBUG: Signal page_generator_context.send(PagesGenerator, <metadata>)
+DEBUG: Read file pages/about.md -> Page
+DEBUG: Read file pages/paintings/ufo-01.md -> Page
+DEBUG: Read file pages/paintings/harvey.md -> Page
+DEBUG: Read file pages/paintings/salton-sea.md -> Page
+DEBUG: Read file pages/paintings/shelf-cloud.md -> Page
+DEBUG: Read file pages/paintings/ufo-02.md -> Page
+DEBUG: Read file pages/tech/2015-04-10-hokey-pokey-tree.md -> Page
+DEBUG: Read file pages/tech/2017-10-22-spark-bench-talk.md -> Page
+DEBUG: Read file pages/tech/2017-02-20-spark-plus-parquet-in-depth.md -> Page
+DEBUG: Read file pages/tech/2017-09-20-spark-bench.md -> Page
+DEBUG: Read file pages/tech/2017-04-14-streamsx-cassandra.md -> Page
+-> Writing /Users/ecurtin/git/framebit/output/debugging-adventures-spark-failed-to-start.html
+-> Writing /Users/ecurtin/git/framebit/output/elizabeth-oconner-on-envy.html
+-> Writing /Users/ecurtin/git/framebit/output/arthur-dow-on-the-amateur-trifecta.html
+-> Writing /Users/ecurtin/git/framebit/output/best-ideas.html
+-> Writing /Users/ecurtin/git/framebit/output/spark-parquet-in-depth.html
+-> Writing /Users/ecurtin/git/framebit/output/talking-about-tech.html
+-> Writing /Users/ecurtin/git/framebit/output/letter-to-hilde.html
+-> Writing /Users/ecurtin/git/framebit/output/on-not-moving-to-canada.html
+-> Writing /Users/ecurtin/git/framebit/output/faith-and-noise.html
+-> Writing /Users/ecurtin/git/framebit/output/didnt-build-it-here-moving-to-jekyll.html
+-> Writing /Users/ecurtin/git/framebit/output/2015-year-in-review.html
+-> Writing /Users/ecurtin/git/framebit/output/hockney-style-photo-collages-and-composites.html
+-> Writing /Users/ecurtin/git/framebit/output/index.html
+-> Writing /Users/ecurtin/git/framebit/output/categories.html
+-> Writing /Users/ecurtin/git/framebit/output/authors.html
+-> Writing /Users/ecurtin/git/framebit/output/archives.html
+-> Writing /Users/ecurtin/git/framebit/output/blog.html
+-> Writing /Users/ecurtin/git/framebit/output/painting.html
+-> Writing /Users/ecurtin/git/framebit/output/tech.html
+-> Writing /Users/ecurtin/git/framebit/output/category/posts.html
+-> Writing /Users/ecurtin/git/framebit/output/author/andrew-sullivan.html
+-> Writing /Users/ecurtin/git/framebit/output/author/elizabeth-oconnor.html
+-> Writing /Users/ecurtin/git/framebit/output/author/emily-curtin.html
+-> Writing /Users/ecurtin/git/framebit/output/author/nick-paumgarten.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/hokey-pokey-tree.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/talk-spark-parquet.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/streamsxcassandra.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/spark-bench.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/talk-spark-bench.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/about.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/portrait-of-harvey-at-landfall.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/ankle-deep-fish-bones.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/shelf-cloud.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/travel-light.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/ufo-01.html
+-> Writing /Users/ecurtin/git/framebit/output/pages/ufo-02.html
+-> Copying /Users/ecurtin/git/framebit/theme/static/css/output.css.map to /Users/ecurtin/git/framebit/output/theme/css/output.css.map
+-> Copying /Users/ecurtin/git/framebit/theme/static/css/main.css to /Users/ecurtin/git/framebit/output/theme/css/main.css
+-> Copying /Users/ecurtin/git/framebit/theme/static/css/output.css to /Users/ecurtin/git/framebit/output/theme/css/output.css
+-> Copying /Users/ecurtin/git/framebit/theme/static/sass/base.sass to /Users/ecurtin/git/framebit/output/theme/sass/base.sass
+-> Copying /Users/ecurtin/git/framebit/theme/static/sass/_reset.sass to /Users/ecurtin/git/framebit/output/theme/sass/_reset.sass
+-> Copying /Users/ecurtin/git/framebit/theme/static/sass/collector.sass to /Users/ecurtin/git/framebit/output/theme/sass/collector.sass
+Done: Processed 12 articles, 0 drafts, 12 pages and 0 hidden pages in 0.54 seconds.

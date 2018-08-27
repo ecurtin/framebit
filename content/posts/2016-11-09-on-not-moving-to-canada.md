@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title:  "On Not Moving To Canada"
 date:   2016-11-09 08:00:19 -0500
 categories: essays

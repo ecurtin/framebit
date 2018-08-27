@@ -1,5 +1,5 @@
 ---
-layout: post
+Template: article
 title:  "Talking About 'Tech'"
 date:   2016-12-01 4:38:19 -0500
 categories: essays

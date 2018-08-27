@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content">
+{% block content_title %}
+<h2>Blog</h2>
+{% endblock %}
+
+<ol id="post-list">
+    {% if articles %}
+
+    {% for article in articles %}
+        <li><article class="hentry">
+            {% if article.template == 'article' %}
+                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+                <footer class="post-info">
+                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                </footer><!-- /.post-info -->
+                <div class="entry-content"> {{ article.summary }} </div><!-- /.entry-content -->
+                {% if article.thumbnail %}
+                <img class="article-thumbnail" src="{{ article.thumbnail }}"/>
+                {% endif %}
+            {% elif article.template == 'quote' %}
+                <div class="quote-body">
+                    <a class="quote-link" href="{{ article.url }}">{{ article.content }}</a>
+                    {% if article.source %}
+                    <a class="quote-author" href="{{ article.source }}">{{ article.author }}   •   {{ article.sourcetext }}</a>
+                    {% else %}
+                    <div class="quote-author">{{ article.author }}   •   {{ article.sourcetext }}</div>
+                    {% endif %}
+                </div>
+                <footer class="post-info">
+                    <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
+                </footer><!-- /.post-info -->
+            {% else %}
+            <h2>WELL FUCK ME IN THE ASS THERE'S NOTHING HERE</h2>
+            {% endif %}
+        </article></li>
+    {% endfor %}
+    {% endif %}
+</ol><!-- /#posts-list -->
+</section><!-- /#content -->
+{% endblock content %}
