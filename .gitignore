@@ -34,3 +34,5 @@ _layouts
 theme/static/css/main\.css\.map
 
 theme/static/css/output\.css\.map
+
+theme/static/css/output\.css
