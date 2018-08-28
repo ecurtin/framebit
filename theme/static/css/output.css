@@ -28,6 +28,9 @@ p {
   margin-bottom: 20px;
   margin-left: 0px; }
 
+section#content ol#post-list {
+  list-style-type: none; }
+
 /* Mobile first, relying on source ordering */
 .flexcontainer {
   display: flex; }
