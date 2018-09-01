@@ -20,10 +20,16 @@
         <header id="banner" class="body">
                 <h1><a href="{{ SITEURL }}/">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
         </header><!-- /#banner -->
-        <div class="flexcontainer">
+        <nav class="flexcontainer">
             <div id="content-wrapper">
             {% block content %}
             {% endblock %}
+                <footer id="contentinfo" class="body">
+                    <address id="about" class="vcard body">
+                        Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                        which takes great advantage of <a href="http://python.org">Python</a>.
+                    </address><!-- /#about -->
+                </footer><!-- /#contentinfo -->
             </div>
             <nav class="top-nav"><ul>
                 {% for title, link in MENUITEMS %}
@@ -41,12 +47,9 @@
                 {% endif %}
                 {% endif %}
             </ul></nav><!-- /#top-nav -->
-            <footer id="contentinfo" class="body">
-                    <address id="about" class="vcard body">
-                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-                    which takes great advantage of <a href="http://python.org">Python</a>.
-                    </address><!-- /#about -->
-            </footer><!-- /#contentinfo -->
+            <nav class="subdirectory">
+
+            </nav>
         </div>
 </div>
 </body>
