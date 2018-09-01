@@ -7,6 +7,14 @@ the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site gener
 
 1. Clone the site.
 
+2. Start the virtualenv with `pip install pelican markdown` run
+    ```bash
+    # From framebit directory on my system
+    # And yes this is apparently a venv inside a venv...
+    # I hate Python
+    $ source ../../venvs/pelican/venv/bin/
+    ```
+
 2. Compile the Sass to CSS
     ```bash
     sass --watch theme/static/sass/collector.sass:theme/static/css/output.css
