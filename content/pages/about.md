@@ -32,19 +32,9 @@ developers, engineers, nerds, designers, athletes, chefs, baby whisperers, farme
 city-slickers, mothers, fathers, children, grandparents, good drivers, ok drivers, 
 terrible drivers, people who don't like to dance, and people who will dance the night away.
 
-
-<br/>
-<hr/>
-<br/>
 <span class="contacticon center">
 	<a href="mailto:emily@framebit.org"><i class="fa fa-envelope-square"></i></a>
 	<a href="https://github.com/ecurtin" target="_blank"><i class="fa fa-github-square"></i></a>
 	<a href="https://www.linkedin.com/in/emilymaycurtin" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	<a href="https://twitter.com/emilymaycurtin" target="_blank"><i class="fa fa-twitter-square"></i></a>
 </span>
-
-<!--
-<div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
-</div>
--->
