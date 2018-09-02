@@ -1,10 +1,9 @@
----
-layout: post
-title: Spark-Bench
-description: benchmarking & simulation for Apache Spark
-img: "/img/icons/github-styled-white.png"
-redirect: https://sparktc.github.io/spark-bench/
----
+Template: tech-page
+Title: Spark-Bench
+Tags: tech
+Description: benchmarking & simulation for Apache Spark
+Img: "/img/icons/github-styled-white.png"
+Redirect: https://sparktc.github.io/spark-bench/
 
 Spark-Bench is a ground-up rewrite I did of a benchmarking suite pioneered by folks at IBM Research.
 

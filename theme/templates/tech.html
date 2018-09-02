@@ -1,50 +1,49 @@
----
-layout: page
-title: tech
-permalink: /tech/
----
+{% extends "base.html" %}
+{% block content %}
 
-HURDY GURDY GURR TECHNOLOGHY
+    <h1> Tech Talks and Projects </h1>
 
-{% for page in pages if "painting" in page.tags %}
-
-
-{% if project.redirect %}
-<div class="project">
-  <div class="thumbnail">
-    <a href="{{ project.redirect }}" target="_blank">
-      {% if project.img %}
-      <img class="thumbnail" src="{{ project.img }}"/>
-      {% else %}
-      <div class="thumbnail blankbox"></div>
-      {% endif %}
-      <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-    </a>
-  </div>
-</div>
-{% else %}
-
-<div class="project ">
-  <div class="thumbnail">
-    <a href="{{ site.baseurl }}{{ project.url }}">
-      {% if project.img %}
-      <img class="thumbnail" src="{{ project.img }}"/>
-      {% else %}
-      <div class="thumbnail blankbox"></div>
-      {% endif %}
-      <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-    </a>
-  </div>
-</div>
-
-{% endif %}
-
-{% endfor %}
+    {% for page in pages %}
+        {% if page.tags %}
+            {% for tag in page.tags %}
+                {% if "tech" in tag.name %}
+                    {% if page.redirect %}
+                    <div class="project">
+                        <div class="thumbnail">
+                            <a href="{{ page.redirect }}" target="_blank">
+                                {% if page.img %}
+                                <img class="thumbnail" src="{{ page.img }}"/>
+                                {% else %}
+                                <div class="thumbnail blankbox"></div>
+                                {% endif %}
+                                <span>
+                                <h1>{{ page.title }}</h1>
+                                <br/>
+                                <p>{{ page.description }}</p>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="project ">
+                        <div class="thumbnail">
+                            <a href="{{ page.url }}">
+                                {% if page.img %}
+                                <img class="thumbnail" src="{{ page.img }}"/>
+                                {% else %}
+                                <div class="thumbnail blankbox"></div>
+                                {% endif %}
+                                <span>
+                                <h1>{{ page.title }}</h1>
+                                <br/>
+                                <p>{{ page.description }}</p>
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+{% endblock %}
