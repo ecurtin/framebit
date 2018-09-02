@@ -1,6 +1,8 @@
 ---
 layout: painting
 title:  "Ankle Deep Fish Bones"
+category: painting
+tags: painting
 description: "Oil on wood panel"
 thumbnailimg: "/img/1500x-paintings/salton-sea-thumb.png"
 img: "/img/1500x-paintings/salton-sea-1500.png"

@@ -1,52 +1,110 @@
-{% extends "page.html" %}
+{% extends "base.html" %}
 {% block content %}
 
     <h2> this is my art cool stuff kthnxbi </h2>
-    {% for project in pages.paintings %}
 
-    {% if project.redirect %}
-    <div class="project">
+    {% for page in pages %}
+        {% if page.tags %}
+            {% for tag in page.tags %}
+                {% if "painting" in tag.name %}
+                    <div class="project ">
+                        <div class="thumbnail">
+                            <a href="{{ page.url }}">
+                                {% if page.img %}
+                                <img src="{{ page.img }}"/>
+                                {% endif %}
+                                <span>
+                                    <h1>{{ page.title }}</h1>
+                                    <br/>
+                                    <p>{{ page.date }}</p>
+
+                                    <p>{{ page.description }}</p>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+
+
+    {% for page in pages %}
+{% if page.title %}<h1>Title is {{ page.title }}</h1> {% endif %}
+
+    <ul>
+        <li>{% if page.author %}author is {{ page.author }} {% endif %}</li>
+        <li>{% if page.date %}Date is {{ page.date }} {% endif %}</li>
+        <li>{% if page.date_format %}date_format is {{ page.date_format }} {% endif %}</li>
+        <li>{% if page.default_template %}default_template is {{ page.default_template }} {% endif %}</li>
+        <li>{% if page.metadata %}metadata is {{ page.metadata }} {% endif %}</li>
+        <li>{% if page.save_as %}save_as is {{ page.save_as }} {% endif %}</li>
+        <li>{% if page.slug %}slug is {{ page.slug }} {% endif %}</li>
+        <li>{% if page.source_path %}source_path is {{ page.source_path }} {% endif %}</li>
+        <li>{% if page.status %}status is {{ page.status }} {% endif %}</li>
+        <li>{% if page.summary %}summary is {{ page.summary }} {% endif %}</li>
+        <b><li>{% if page.tags %}tags is {{ page.tags }} {% endif %}</li></b>
+        <li>{% if page.template %}template is {{ page.template }} {% endif %}</li>
+        <li>{% if page.url %}url is {{ page.url }} {% endif %}</li>
+        <li>{% if page.content %}content is {{ page.content }} {% endif %}</li>
+        <li>{% if page.img %}img is {{ page.img }} {% endif %}</li>
+    </ul>
+    {% if page.tags %}
+        {% for tag in page.tags %}
+        tag.name is {{ tag.name }}
+        {% if "painting" in tag.name %}
+        <h1>THIS IS A PAINTING</h1>
+        {% else %}
+        <h1>Either this is not a painting or my logic is wrong</h1>>
+        {% endif %}
+        {% endfor %}
+    {% endif %}
+
+
+{% endfor %}
+
+
+
+    {% for category, pages in categories|sort %}
+    <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a> ({{ pages|count }})</li>
+    {% endfor %}
+
+    {% for tag, pages in tags|sort %}
+    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+    {% endfor %}
+
+
+
+    {% for tag, pages in tags|sort %}
+    <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ pages|count }})</li>
+
+    {% if tag == "painting" %}
+    <h2>SHIT YEAH THIS IS A PAINTING</h2>
+    <div class="project ">
         <div class="thumbnail">
-            <a href="{{ project.redirect }}" target="_blank">
-                {% if project.thumbnailimg %}
-                <img class="thumbnail" src="{{ project.thumbnailimg }}"/>
-                {% elif project.img %}
-                <img class="thumbnail" src="{{ project.img }}"/>
+            <a href="{{ site.baseurl }}{{ page.url }}">
+                {% if page.img %}
+                <img class="thumbnail" src="{{ page.img }}"/>
                 {% else %}
+                <h2>OH WELL THERE'S NOTHING HERE</h2>
                 <div class="thumbnail blankbox"></div>
                 {% endif %}
                 <span>
-                <h1>{{ project.title }}</h1>
+                <h1>{{ page.title }}</h1>
                 <br/>
-                <p>{{ project.description }}</p>
+                <p>{{ page.date }}</p>
+
+                <p>{{ page.description }}</p>
             </span>
             </a>
         </div>
     </div>
     {% else %}
+    <h2>ASSBALLS THIS IS NOT A PAINTING.</h2>
+    <h2>THE TITLE IS {{ page.title }}</h2>
+    <h2>THE TAGS ARE {{ page.tags }}</h2>
 
-    <div class="project ">
-        <div class="thumbnail">
-            <a href="{{ site.baseurl }}{{ project.url }}">
-                {% if project.thumbnailimg %}
-                <img class="thumbnail" src="{{ project.thumbnailimg }}"/>
-                {% elif project.img %}
-                <img class="thumbnail" src="{{ project.img }}"/>
-                {% else %}
-                <div class="thumbnail blankbox"></div>
-                {% endif %}
-                <span>
-                <h1>{{ project.title }}</h1>
-                <br/>
-                <p>{{ project.date }}</p>
+{% endif %}
 
-                <p>{{ project.description }}</p>
-            </span>
-            </a>
-        </div>
-    </div>
-
-        {% endif %}
-
-        {% endfor %}
+    {% endfor %}
 {% endblock %}

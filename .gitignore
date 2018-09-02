@@ -15,11 +15,9 @@ target/
 _site
 .sass-cache
 .jekyll-metadata
-.idea
-framebit.iml
 *.xcf
 picture-workspace/
-/img/giant-paintings/
+/content/images/giant-paintings/
 
 # For Pelican
 output

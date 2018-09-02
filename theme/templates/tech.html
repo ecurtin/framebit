@@ -6,7 +6,8 @@ permalink: /tech/
 
 HURDY GURDY GURR TECHNOLOGHY
 
-{% for project in pages.tech %}
+{% for page in pages if "painting" in page.tags %}
+
 
 {% if project.redirect %}
 <div class="project">
