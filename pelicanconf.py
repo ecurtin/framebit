@@ -47,6 +47,7 @@ DISPLAY_PAGES_ON_MENU = False
 DISPLAY_CATEGORIES_ON_MENU = False
 
 MENUITEMS = (
+    ('Home', '/'),
     ('About', '/pages/about.html'),
     ('Paintings', '/paintings.html'),
     ('Tech', '/tech.html'),
