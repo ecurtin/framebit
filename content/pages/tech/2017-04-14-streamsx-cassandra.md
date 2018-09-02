@@ -1,10 +1,9 @@
----
-layout: post
-title: streamsx.cassandra
-description: operators that connect IBM Streams to Cassandra
-img: "/img/icons/github-styled-white.png"
-redirect: https://github.com/IBMStreams/streamsx.cassandra
----
+Template: tech-page
+Title: streamsx.cassandra
+Tags: tech
+Description: Operators that connect IBM Streams to Cassandra
+Img: ../images/icons/github-styled-white.png
+Redirect: https://github.com/IBMStreams/streamsx.cassandra
 
 Streamsx.Cassandra is a toolkit for operators that connect IBM Streams to a Cassandra cluster.
 
