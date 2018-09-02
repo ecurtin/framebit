@@ -48,10 +48,10 @@ DISPLAY_CATEGORIES_ON_MENU = False
 
 MENUITEMS = (
     ('About', '/pages/about.html'),
-    ('Painting', '/painting.html'),
+    ('Paintings', '/paintings.html'),
     ('Tech', '/tech.html'),
     ('Blog', '/blog.html')
 )
 
-DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'blog', 'painting', 'tech']
+DIRECT_TEMPLATES = ['index', 'categories', 'authors', 'archives', 'blog', 'paintings', 'tech']
 # TEMPLATE_PAGES = {'/Users/ecurtin/git/framebit/theme/templates/blog.html': 'blog.html'}
