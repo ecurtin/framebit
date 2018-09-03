@@ -1,12 +1,10 @@
----
-template: quote
-title: Best Ideas
-date:   2017-09-12 15:22:00 -0400
-author: Nick Paumgarten
-source: https://www.newyorker.com/magazine/2017/08/28/st-vincents-cheeky-sexy-rock
-sourcetext: St. Vincent’s Cheeky, Sexy Rock
-categories: art culture
----
+Template: quote
+Title: Best Ideas
+Date:   2017-09-12 15:22:00 -0400
+Author: Nick Paumgarten
+Source: https://www.newyorker.com/magazine/2017/08/28/st-vincents-cheeky-sexy-rock
+Sourcetext: St. Vincent’s Cheeky, Sexy Rock
+Categories: art culture
 
 “One of the early conversations we had was about how indie rock always does the unintentional 
 thing, so that it doesn’t have an opportunity to fail,” Perron said. By this, he meant, say, 
