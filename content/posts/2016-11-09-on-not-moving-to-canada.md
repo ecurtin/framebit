@@ -1,12 +1,10 @@
----
 Template: article
-title:  "On Not Moving To Canada"
-date:   2016-11-09 08:00:19 -0500
-categories: essays
----
+Title:  On Not Moving To Canada
+Date:   2016-11-09 08:00:19 -0500
+Categories: essays
 
 Last night, while we as a nation elected Trump, we as a nation also collectively DDOS'd the Canadian immigration website, crashing it sometime in the late evening.
-<!--more-->
+
 It's tempting, I'll admit. Turn away from the ugliness and get out dodge and go somewhere with less yelling. But I can't.
 
 My citizenship bestows on me a great deal of freedom and responsibility.

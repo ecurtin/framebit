@@ -40,3 +40,19 @@
 </ol><!-- /#posts-list -->
 </section><!-- /#content -->
 {% endblock content %}
+
+<!-- ............................................................................................................... -->
+
+{% block subdirectory %}
+<ol>
+    {% if articles %}
+    {% for article in articles %}
+    <li>
+        {% if article.template == 'article' %}
+        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
+        {% endif %}
+    </li>
+    {% endfor %}
+    {% endif %}
+</ol>
+{% endblock %}

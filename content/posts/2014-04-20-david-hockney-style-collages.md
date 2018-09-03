@@ -1,5 +1,5 @@
 Template: article
-Title:  "Hockney Style Photo Collages and Composites"
+Title:  Hockney Style Photo Collages and Composites
 Date:   2014-04-20 22:16:13 -0400
 Categories: art code
 Thumbnail: https://farm6.staticflickr.com/5674/23510842914_bf9fe8aafb_o.png

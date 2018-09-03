@@ -1,17 +1,16 @@
----
 Template: article
-title: "Debugging Adventures: Spark Failed To Start"
-date:   2017-12-04 00:00:00 -0400
----
+Title: Debugging Adventures: Spark Failed To Start
+Date:   2017-12-04 00:00:00 -0400
+
 
 Today after browsing the latest William Carlos Williams memes on Twitter, I figured it was time to actually do work.
 
-```
+```bash
 cd ~/git/spark-bench
 sbt test
 ```
 only to be met with a mountain of red.
-```
+```text
 java.lang.NoClassDefFoundError: Could not initialize class com.ibm.sparktc.sparkbench.testfixtures.SparkSessionProvider$
 	at com.ibm.sparktc.sparkbench.testfixtures.BuildAndTeardownData.<init>(BuildAndTeardownData.scala:35)
 	at com.ibm.sparktc.sparkbench.NotebookSimTest.<init>(NotebookSimTest.scala:27)
@@ -55,11 +54,11 @@ Cool. That's fun. Everything was totes fine yesterday, now I can't make a SparkS
 
 First let's make sure sbt hasn't done anything weird. And let's also try checking out master and seeing if it's just my changes.
 
-```
+```bash
 sbt clean test
 ```
 Mountain of red.
-```
+```bash
 git checkout master
 sbt clean
 sbt test
@@ -69,11 +68,11 @@ Mountain of red.
 Ok, that didn't work. Seems like it's not my code. This is good/bad news.
 
 What if I try a spark-shell?
-```
+```bash
 /opt/spark-2.1.1-bin-hadoop2.7/bin/spark-shell
 ```
 Wait for it, wait for it, wait for it, JVM startup times are really sad,
-```
+```text
 Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
 Setting default log level to "WARN".
 To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
@@ -150,14 +149,14 @@ I love how it'll still get all the way to the ASCII art and the shell even if ev
 Now let's stumble around with permissions issues because maybe magic elves changed permissions on stuff without me noticing and I can't be bothered to `ls -l /opt`.
 
 Sudo make me a sandwich:
-```
+```bash
 sudo /opt/spark-2.1.1-bin-hadoop2.7/bin/spark-shell
 ```
 And same thing happens because dastardly permissions goblins are just a children's story told to bad kids by their parents who are burnt-out programmers.
 
 Since the stacktraces are whining about assigning addresses, maybe there's a networking thing? Let's disconnect from the network and try again.
 
-```
+```text
 ERROR SparkContext: Error initializing SparkContext.
 org.apache.spark.SparkException: Invalid Spark URL: spark://HeartbeatReceiver@:52009
 	at org.apache.spark.rpc.RpcEndpointAddress$.apply(RpcEndpointAddress.scala:65)
@@ -229,7 +228,7 @@ Aha! This has to do with hostnames!
 
 [Insert some Googling]
 
-```
+```bash
 export SPARK_LOCAL_HOSTNAME=localhost
 ```
 
