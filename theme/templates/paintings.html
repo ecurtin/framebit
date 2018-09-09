@@ -7,18 +7,16 @@
         {% if page.tags %}
             {% for tag in page.tags %}
                 {% if "painting" in tag.name %}
-                    <div class="project ">
-                        <div class="thumbnail">
+                    <div class="painting-gallery ">
+                        <div class="one-painting">
                             <a href="{{ page.url }}">
                                 {% if page.img %}
                                 <img src="{{ page.img }}"/>
                                 {% endif %}
                                 <span>
-                                    <h1>{{ page.title }}</h1>
-                                    <br/>
-                                    <p>{{ page.date }}</p>
-
-                                    <p>{{ page.description }}</p>
+                                    <p class="painting-title">{{ page.title }}</p>
+                                    <p class="painting.date">{{ page.date }}</p>
+                                    <p class="painting.medium">{{ page.description }}</p>
                                 </span>
                             </a>
                         </div>
