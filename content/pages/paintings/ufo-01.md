@@ -1,7 +1,9 @@
 Template: painting
-title:  UFO 01
+Title:  UFO 01
 Tags: painting
-description: Oil on canvas
-img: ../images/1500x-paintings/ufo-01-1500.png
-date: 2017-05-28 00:00:00 -0400
-weight: 11
+Description: Oil on Canvas
+Img: ../images/max-size/IMG_0011-MAX.png
+Date: May 28, 2016
+Size: 18x24
+SourceURL: 
+    
