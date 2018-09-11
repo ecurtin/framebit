@@ -1,7 +1,9 @@
 Template: painting
-title:  UFO 02
+Title:  UFO 02
 Tags: painting
-description: Oil on canvas
-img: ../images/1500x-paintings/ufo-02-1500.png
-date: 2017-08-30 00:00:00 -0400
-weight: 10
+Description: Oil on Canvas
+Img: ../images/max-size/IMG_0006-MAX.png
+Date: August 30, 2016
+Size: 18x24
+SourceURL: 
+    
