@@ -2,7 +2,7 @@
 {% block content %}
 <section id="content">
 {% block content_title %}
-<h2>Blog</h2>
+<h1 class="entry-title">Blog</h1>
 {% endblock %}
 
 <ol id="post-list">
@@ -40,18 +40,18 @@
 </section><!-- /#content -->
 {% endblock content %}
 
-<!-- ............................................................................................................... -->
+<!-- ...............................................................................................................
 
-{% block subdirectory %}
-<ol>
-    {% if articles %}
-    {% for article in articles %}
-    <li>
-        {% if article.template == 'article' %}
-        <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
-        {% endif %}
-    </li>
-    {% endfor %}
-    {% endif %}
-</ol>
-{% endblock %}
+<!--{% block subdirectory %}
+<!--<ol>-->
+    <!--{% if articles %}-->
+    <!--{% for article in articles %}-->
+    <!--<li>-->
+        <!--{% if article.template == 'article' %}-->
+        <!--<a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>-->
+        <!--{% endif %}-->
+    <!--</li>-->
+    <!--{% endfor %}-->
+    <!--{% endif %}-->
+<!--</ol>-->
+<!--{% endblock %}-->
