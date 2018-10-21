@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import date
+
+CURRENTYEAR = date.today().year
 
 # Specify a customized theme, via path relative to the settings file
 THEME = "theme"
