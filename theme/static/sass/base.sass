@@ -1,36 +1,117 @@
-$divider-line-color: #000000
-$header-color: #000000
-$post-metadata-color: #565656
-$metadata-color: #565656
-$header-font-family: helvetica, arial, geneva, sans-serif
-$body-font-family: cardo, georgia, serif
-
-
-a
-  text-decoration: none
-
+@import "variables.sass"
 
 body
   padding: 2em
-  font-family: $body-font-family
+  font-family: $mainFont
   font-size: 100%
 
-h1, h2, h3, h4
-  color: #000
-  font-family: $header-font-family
-  font-weight: 400
-
-.post-info
-  color: $post-metadata-color
-  font-family: $header-font-family
-  font-size: 0.75rem
-  font-style: italic
+section#content
+  max-width: 650px
 
 p
-  margin-top: 20px
-  margin-right: 0px
-  margin-bottom: 20px
-  margin-left: 0px
+  margin-bottom: $blockMargin/2
+  font-size: $mainFontSize
+  color: $mainColor
+  font-family: $mainFont
+
+a
+  text-decoration: none
+  color: $linkColor
+  &:hover
+    color: $linkColorHover
+
+pre
+  margin-bottom: $blockMargin/2
+  overflow: auto
+
+h1, h2, h3, h4
+  color: $headingColor
+  font-family: $headingFont
+  font-weight: $headingFontWeight
+  line-height: $headingLineHeight
+  margin: $headingMargin
+
+h1
+  font-size: $heading1Size
+  text-transform: $headingTextTransform
+  letter-spacing: $heading1Spacing
+
+h2
+  font-size: $heading2Size
+  text-transform: $headingTextTransform
+
+h3
+  font-size: $heading3Size
+  text-transform: $headingTextTransform
+
+h4
+  font-size: $heading4Size
+  text-transform: $headingTextTransform
+@import variables
+
+//h1.entry-title
+//  line-height: 1em
+//  margin: 20px 0 30px 0
+//  text-transform: lowercase
+//
+//h2.entry-title
+//  font-size: 4rem
+//  letter-spacing: -3px
+//  line-height: 1.2em
+//  margin: 10px 0 10px 0
+
+.quote-body
+  margin: 0 auto
+  margin-top: 0.5em
+  font-family: "Merriweather", serif
+  color: #312d2d
+  font-style: italic
+  font-size: 1.1em
+
+a
+  &.quote-link
+    margin: 0 auto
+    margin-top: 0.5em
+    font-family: "Merriweather", serif
+    color: #312d2d
+    font-style: italic
+    font-size: 1.1em
+    &:hover
+      color: #9d7ccf
+      text-decoration: none
+  &.quote-author
+    color: #111
+    font-weight: 300
+    font-style: italic
+    font-size: 0.9em
+    &:hover
+      color: #9d7ccf
+      text-decoration: none
+
+
+
+.painting-gallery
+  .one-painting
+    a
+      img
+        width: 100%
+        max-width: 600px
+    p
+      color: $metadataFontColor
+
+
+.divider-line
+  border-bottom: 1px solid $dividerLineColor
+  margin: 30px auto
+  width: 80%
+
+.post-info
+  color: $metadataFontColor
+  font-family: $headingFont
+  font-size: $metadataFontSize
+  font-style: $metadataFontStyle
+
+
 
 section#content
   ol#post-list
@@ -48,13 +129,13 @@ header#banner
   display: flex
 
 .top-nav
-  /*background-color: lawngreen;
+  /*background-color: lawngreen
   margin-left: 10px
   margin-right: 10px
   margin-top: 80px
   width: 100px
   min-width: 100px
-  font-family: helvetica, arial, geneva, sans-serif
+  font-family: $headingFont
   > ul
     list-style: none
     text-align: right
@@ -83,7 +164,6 @@ footer#contentinfo
     order: 4
     width: 84%
     ul li
-      color: #dd1144
       display: flex
       flex-wrap: wrap
       margin-top: 0px
