@@ -3,7 +3,7 @@
 
     <h1 class="entry-title"> Tech Talks & Projects </h1>
 
-    {% for page in pages %}
+    {% for page in pages|sort(attribute='date', reverse=True) %}
         {% if page.tags %}
             {% for tag in page.tags %}
                 {% if "tech" in tag.name %}
@@ -17,12 +17,14 @@
                                 <div class="thumbnail blankbox"></div>
                                 {% endif %}
                                 <span>
-                                <h1>{{ page.title }}</h1>
+                                <h2>{{ page.title }}</h2>
                                 <br/>
                                 <p>{{ page.description }}</p>
                             </span>
                             </a>
                         </div>
+                        <div class="divider-line"></div>
+
                     </div>
                     {% else %}
                     <div class="project ">
@@ -34,7 +36,7 @@
                                 <div class="thumbnail blankbox"></div>
                                 {% endif %}
                                 <span>
-                                <h1>{{ page.title }}</h1>
+                                <h2>{{ page.title }}</h2>
                                 <br/>
                                 <p>{{ page.description }}</p>
                             </span>

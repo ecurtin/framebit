@@ -1,5 +1,6 @@
 Template: tech-page
 Title: Talk: Spark + Parquet In Depth
+Date: 2017-02-20
 Tags: tech
 Description: Spark Summit East 2017
 Img: ../images/icons/spark_summit_logo.png

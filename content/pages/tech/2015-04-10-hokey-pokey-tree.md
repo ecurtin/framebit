@@ -1,5 +1,6 @@
 Template: tech-page
 Title: Hokey Pokey Tree
+Date: 2015-04-10
 Tags: tech
 Description: a data structure that truly is what it's all about
 Img: ../images/icons/github-styled-white.png

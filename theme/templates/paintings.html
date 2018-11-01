@@ -3,7 +3,7 @@
 
     <h1 class="entry-title"> Paintings </h1>
 
-    {% for page in pages %}
+    {% for page in pages|sort(attribute='date', reverse=True) %}
         {% if page.tags %}
             {% for tag in page.tags %}
                 {% if "painting" in tag.name %}
@@ -15,9 +15,10 @@
                                 {% endif %}
                             <p class="painting-title">{{ page.title }}</p>
                             </a>
-                            <p class="painting.date">{{ page.date }}</p>
+                            <time class="published" datetime="{{ page.date.isoformat() }}"> {{ page.date | strftime('%B %Y') }} </time>
                             <p class="painting.medium">{{ page.description }}</p>
                         </div>
+                        <div class="divider-line"></div>
                     </div>
                 {% endif %}
             {% endfor %}
