@@ -1,7 +1,10 @@
 {% extends "base.html" %}
 
+{% block sectionTitle %}
+<h1 class="entry-title">: {{ page.title }}</h1>
+{% endblock %}
+
 {% block content %}
-    <h1 class="entry-title">{{ page.title }}</h1>
     <div class="entry-content">
     {{ page.content }}
     {% if page.modified %}

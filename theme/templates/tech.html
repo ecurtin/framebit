@@ -1,8 +1,9 @@
 {% extends "base.html" %}
+{% block sectionTitle %}
+<h1 class="entry-title">: Tech</h1>
+{% endblock %}
+
 {% block content %}
-
-    <h1 class="entry-title"> Tech Talks & Projects </h1>
-
     {% for page in pages|sort(attribute='date', reverse=True) %}
         {% if page.tags %}
             {% for tag in page.tags %}
