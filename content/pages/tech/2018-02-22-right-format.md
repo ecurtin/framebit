@@ -1,5 +1,6 @@
 Template: tech-page
 Title: Talk: The Right Data Format for the Right Job
+Date: 2018-02-22
 Tags: tech
 Description: Devnexus 2018
 Img: ../images/icons/devnexus.png

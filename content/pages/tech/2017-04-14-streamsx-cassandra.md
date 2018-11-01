@@ -1,5 +1,6 @@
 Template: tech-page
 Title: streamsx.cassandra
+Date: 2017-04-14
 Tags: tech
 Description: Operators that connect IBM Streams to Cassandra
 Img: ../images/icons/github-styled-white.png

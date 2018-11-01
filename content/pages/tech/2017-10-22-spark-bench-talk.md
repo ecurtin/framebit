@@ -1,5 +1,6 @@
 Template: tech-page
 Title:  Talk: Spark-Bench
+Date: 2017-10-22
 Tags: tech
 Description: Spark Summit EU 2017
 Img: ../images/icons/spark_summit_logo.png

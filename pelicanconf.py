@@ -17,6 +17,8 @@ SITENAME = u'Emily Curtin'
 # SITEURL = 'http://framebit.org'
 SITEURL = ''
 
+ARTICLE_ORDER_BY = 'reversed-date'
+PAGE_ORDER_BY = 'reversed-date'
 
 PATH = 'content'
 

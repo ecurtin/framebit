@@ -1,8 +1,6 @@
----
-layout: page
-title: travel light
-permalink: /travel-light/
----
+Template: page
+Title: Travel Light
+Date: 2016-04-22
 
 {% youtube "https://vimeo.com/219959851" %}
 <br/>
