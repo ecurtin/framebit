@@ -9,32 +9,41 @@ section#content
   max-width: $contentMaxWidth
 
 nav#top-nav
-  /*background-color: lawngreen
   font-family: $headingFont
   font-size: $mainFontSize*1.2
-  //margin-left: 10px
-  //margin-right: 10px
   margin-top: 80px
-  //width: 100px
   min-width: 120px
   > ul
     list-style: none
     text-align: right
     padding: 0
-    text-transform: uppercase
-
+    text-transform: lowercase
     li
       margin-top: 10px
       margin-bottom: 10px
 
 #content
   p, ul, ol, li
-    margin-bottom: $blockMargin/2
-    font-size: $mainFontSize
+    margin-bottom: $blockMargin
+    //font-size: $mainFontSize
     color: $mainColor
     font-family: $mainFont
   li
     margin-left: $mainFontSize
+    margin-bottom: $blockMargin/2
+
+
+#content
+  .entry-content
+    font-size: $mainFontSize
+
+#post-list
+  li
+    margin: 0px
+
+article.hentry
+  .divider-line
+    margin: $blockMargin*2 0 $blockMargin*2 0
 
 a
   text-decoration: none
@@ -53,54 +62,40 @@ h1, h2, h3, h4
   font-family: $headingFont
   font-weight: $headingFontWeight
   line-height: $headingLineHeight
-  margin: $headingMargin
+  margin: $headingMargin/2
 
 h1
   font-size: $heading1Size
   text-transform: $heading1TextTransform
   letter-spacing: $heading1Spacing
+  margin: $headingMargin
 
 h2
   font-size: $heading2Size
   text-transform: $headingTextTransform
+  margin: $blockMargin/2 0 $blockMargin/2 0
 
 h3
   font-size: $heading3Size
   text-transform: $headingTextTransform
+  margin: $blockMargin/2 0 $blockMargin/2 0
+
 
 h4
   font-size: $heading4Size
   text-transform: $headingTextTransform
 
-.quote-body
+.quote
   margin: 0 auto
   margin-top: 0.5em
   font-family: "Merriweather", serif
   color: #312d2d
   font-style: italic
-  font-size: 1.1em
+  font-size: 1.3em
 
-//a
-//  &.quote-link
-//    margin: 0 auto
-//    margin-top: 0.5em
-//    font-family: "Merriweather", serif
-//    color: #312d2d
-//    font-style: italic
-//    font-size: 1.1em
-//    &:hover
-//      color: #9d7ccf
-//      text-decoration: none
-//  &.quote-author
-//    color: #111
-//    font-weight: 300
-//    font-style: italic
-//    font-size: 0.9em
-//    &:hover
-//      color: #9d7ccf
-//      text-decoration: none
-
-
+img.thumbnail
+  max-width: 300px
+  max-height: 200px
 
 .painting-gallery
   .one-painting
@@ -119,12 +114,12 @@ h4
   margin: 30px auto
   //width: 80%
 
-.post-info
+footer.post-info
   color: $metadataFontColor
   font-family: $headingFont
   font-size: $metadataFontSize
   font-style: $metadataFontStyle
-
+  margin: $blockMargin/4 0 $blockMargin/2 0
 
 
 section#content

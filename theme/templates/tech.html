@@ -9,39 +9,33 @@
                 {% if "tech" in tag.name %}
                     {% if page.redirect %}
                     <div class="project">
-                        <div class="thumbnail">
-                            <a href="{{ page.redirect }}" target="_blank">
-                                {% if page.img %}
-                                <img class="thumbnail" src="{{ page.img }}"/>
-                                {% else %}
-                                <div class="thumbnail blankbox"></div>
-                                {% endif %}
-                                <span>
-                                <h2>{{ page.title }}</h2>
-                                <br/>
-                                <p>{{ page.description }}</p>
-                            </span>
-                            </a>
-                        </div>
-                        <div class="divider-line"></div>
-
+                        <a href="{{ page.redirect }}" target="_blank">
+                            <h2>{{ page.title }}</h2>
+                            {% if page.img %}
+                            <img class="thumbnail" src="{{ page.img }}"/>
+                            {% else %}
+                            <div class="thumbnail blankbox"></div>
+                            {% endif %}
+                            <span>
+                            <p>{{ page.description }}</p>
+                        </span>
+                        </a>
+                    <div class="divider-line"></div>
                     </div>
                     {% else %}
                     <div class="project ">
-                        <div class="thumbnail">
-                            <a href="{{ page.url }}">
-                                {% if page.img %}
-                                <img class="thumbnail" src="{{ page.img }}"/>
-                                {% else %}
-                                <div class="thumbnail blankbox"></div>
-                                {% endif %}
-                                <span>
-                                <h2>{{ page.title }}</h2>
-                                <br/>
-                                <p>{{ page.description }}</p>
-                            </span>
-                            </a>
-                        </div>
+                        <a href="{{ page.url }}">
+                            <h2>{{ page.title }}</h2>
+                            {% if page.img %}
+                            <img class="thumbnail" src="{{ page.img }}"/>
+                            {% else %}
+                            <div class="thumbnail blankbox"></div>
+                            {% endif %}
+                            <span>
+                            <p>{{ page.description }}</p>
+                        </span>
+                        </a>
+                        <div class="divider-line"></div>
                     </div>
                     {% endif %}
                 {% endif %}
