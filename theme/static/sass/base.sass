@@ -22,12 +22,23 @@ nav#top-nav
       margin-top: 10px
       margin-bottom: 10px
 
+ul.painting-info
+  list-style: none
+  font-family: $headingFont
+  >li
+    margin-left: 0
+    margin-bottom: $blockMargin/4
+
+
+
 #content
-  p, ul, ol, li
+  p, ul, ol
     margin-bottom: $blockMargin
-    //font-size: $mainFontSize
     color: $mainColor
     font-family: $mainFont
+
+
+.entry-content
   li
     margin-left: $mainFontSize
     margin-bottom: $blockMargin/2
@@ -105,9 +116,6 @@ img.thumbnail
         //height: 100%
         max-width: 700px
         max-height: 700px
-    p
-      color: $metadataFontColor
-
 
 .divider-line
   border-bottom: 1px solid $dividerLineColor
