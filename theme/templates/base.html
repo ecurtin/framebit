@@ -22,13 +22,15 @@
         </header><!-- /#banner -->
         <nav class="flexcontainer">
             <div id="content-wrapper">
-            {% block content %}
-            {% endblock %}
-                <footer id="contentinfo" class="post-info">
-                    Copyright 2012 - {{ CURRENTYEAR }} Emily Curtin. All rights reserved.
-                </footer><!-- /#contentinfo -->
+                <section id="content">
+                {% block content %}
+                {% endblock %}
+                    <footer id="page-footer" class="post-info">
+                        Copyright 2012 - {{ CURRENTYEAR }} Emily Curtin. All rights reserved.
+                    </footer><!-- /#contentinfo -->
+                </section>
             </div>
-            <nav class="top-nav"><ul>
+            <nav id="top-nav"><ul>
                 {% for title, link in MENUITEMS %}
                 <li><a href="{{ link }}">{{ title }}</a></li>
                 {% endfor %}

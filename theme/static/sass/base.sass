@@ -1,18 +1,40 @@
 @import "variables.sass"
 
 body
-  padding: 2em
+  padding: 1.3em
   font-family: $mainFont
   font-size: 100%
 
 section#content
-  max-width: 650px
+  max-width: $contentMaxWidth
 
-p
-  margin-bottom: $blockMargin/2
-  font-size: $mainFontSize
-  color: $mainColor
-  font-family: $mainFont
+nav#top-nav
+  /*background-color: lawngreen
+  font-family: $headingFont
+  font-size: $mainFontSize*1.2
+  //margin-left: 10px
+  //margin-right: 10px
+  margin-top: 80px
+  //width: 100px
+  min-width: 120px
+  > ul
+    list-style: none
+    text-align: right
+    padding: 0
+    text-transform: uppercase
+
+    li
+      margin-top: 10px
+      margin-bottom: 10px
+
+#content
+  p, ul, ol, li
+    margin-bottom: $blockMargin/2
+    font-size: $mainFontSize
+    color: $mainColor
+    font-family: $mainFont
+  li
+    margin-left: $mainFontSize
 
 a
   text-decoration: none
@@ -33,7 +55,7 @@ h1, h2, h3, h4
 
 h1
   font-size: $heading1Size
-  text-transform: $headingTextTransform
+  text-transform: $heading1TextTransform
   letter-spacing: $heading1Spacing
 
 h2
@@ -47,18 +69,6 @@ h3
 h4
   font-size: $heading4Size
   text-transform: $headingTextTransform
-@import variables
-
-//h1.entry-title
-//  line-height: 1em
-//  margin: 20px 0 30px 0
-//  text-transform: lowercase
-//
-//h2.entry-title
-//  font-size: 4rem
-//  letter-spacing: -3px
-//  line-height: 1.2em
-//  margin: 10px 0 10px 0
 
 .quote-body
   margin: 0 auto
@@ -68,25 +78,25 @@ h4
   font-style: italic
   font-size: 1.1em
 
-a
-  &.quote-link
-    margin: 0 auto
-    margin-top: 0.5em
-    font-family: "Merriweather", serif
-    color: #312d2d
-    font-style: italic
-    font-size: 1.1em
-    &:hover
-      color: #9d7ccf
-      text-decoration: none
-  &.quote-author
-    color: #111
-    font-weight: 300
-    font-style: italic
-    font-size: 0.9em
-    &:hover
-      color: #9d7ccf
-      text-decoration: none
+//a
+//  &.quote-link
+//    margin: 0 auto
+//    margin-top: 0.5em
+//    font-family: "Merriweather", serif
+//    color: #312d2d
+//    font-style: italic
+//    font-size: 1.1em
+//    &:hover
+//      color: #9d7ccf
+//      text-decoration: none
+//  &.quote-author
+//    color: #111
+//    font-weight: 300
+//    font-style: italic
+//    font-size: 0.9em
+//    &:hover
+//      color: #9d7ccf
+//      text-decoration: none
 
 
 
@@ -94,8 +104,10 @@ a
   .one-painting
     a
       img
-        width: 100%
-        max-width: 600px
+        //width: 100%
+        //height: 100%
+        max-width: 700px
+        max-height: 700px
     p
       color: $metadataFontColor
 
@@ -103,7 +115,7 @@ a
 .divider-line
   border-bottom: 1px solid $dividerLineColor
   margin: 30px auto
-  width: 80%
+  //width: 80%
 
 .post-info
   color: $metadataFontColor
@@ -128,48 +140,36 @@ header#banner
 .main
   display: flex
 
-.top-nav
-  /*background-color: lawngreen
-  margin-left: 10px
-  margin-right: 10px
-  margin-top: 80px
-  width: 100px
-  min-width: 100px
-  font-family: $headingFont
-  > ul
-    list-style: none
-    text-align: right
-    padding: 0
-    text-transform: uppercase
-
-    li
-      margin-top: 10px
-      margin-bottom: 10px
 
 .subdirectory
-  width: 100px
+  width: 90px
   ol
     list-style: none
 
-footer#contentinfo
+footer#page-footer
+  margin: $blockMargin 0 $blockMargin 0
   background-color: inherit
+
 
 /* Smaller screens
 @media screen and (max-width: 799px)
+  h1
+    font-size: $heading1Size*0.7
+    font-spacing: 0px
   .flexcontainer
     flex-direction: column
-  .top-nav
-    height: 100px
-    margin: 20px 8% !important
+  nav#top-nav
+    //height: 100px
     order: 4
-    width: 84%
-    ul li
+    //width: 84%
+    margin-top: 0px
+    border-top: 1px solid $dividerLineColor
+    ul
+      margin: 20px 0 20px 0
+    li
       display: flex
       flex-wrap: wrap
-      margin-top: 0px
-      margin-right: 6px
-      margin-bottom: 0px
-      margin-left: 6px
+      margin: 0px
 
 /* Larger screens
 @media screen and (min-width: 800px)
