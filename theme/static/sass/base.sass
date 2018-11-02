@@ -5,7 +5,13 @@ body
   font-family: $mainFont
   font-size: 100%
 
+#content-wrapper
+  max-width: 1000px
+  //max-width: 100%
+
+
 section#content
+  margin: 0 $blockMargin 0 $blockMargin
   max-width: $contentMaxWidth
 
 nav#top-nav
@@ -34,8 +40,8 @@ ul.painting-info
 #content
   p, ul, ol
     margin-bottom: $blockMargin
-    color: $mainColor
-    font-family: $mainFont
+    //color: $mainColor
+    //font-family: $mainFont
 
 
 .entry-content
@@ -97,10 +103,15 @@ h4
   text-transform: $headingTextTransform
 
 .quote
-  margin: 0 auto
-  margin-top: 0.5em
-  font-family: "Merriweather", serif
-  color: #312d2d
+  margin: 0.5em auto
+  font-family: $quoteFont
+  color: $quoteFontColor
+  font-style: italic
+  font-size: 1.3em
+  max-width: $contentMaxWidth * 0.8
+  >p
+    font-family: $quoteFont
+  color: $quoteFontColor
   font-style: italic
   font-size: 1.3em
 
