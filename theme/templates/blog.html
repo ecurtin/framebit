@@ -28,7 +28,7 @@
                 {% else %}
                     <div class="quote">{{ article.author }}   •   {{ article.sourcetext }}</div>
                 {% endif %}
-                <footer class="post-info">
+                <footer class="quote post-info">
                     <time class="published" datetime="{{ article.date.isoformat() }}"> {{ article.locale_date }} </time>
                 </footer><!-- /.post-info -->
             {% endif %}
