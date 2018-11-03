@@ -1,0 +1,75 @@
+@import variables
+
+/* Larger screens
+@media screen and (min-width: 800px)
+  body
+    padding: 1.3em
+  .flexcontainer
+    flex-direction: row
+  header#banner
+    flex: 3 0px
+  .main
+    flex: 1
+  .nav#top-nav
+    order: 1
+  div#content-wrapper
+    order: 2
+  footer
+    order: 3
+  section#content
+    margin: $blockMargin $blockMargin 0 $blockMargin
+    max-width: $contentMaxWidth
+    iframe
+      width: $contentMaxWidth
+  .quote
+    max-width: $contentMaxWidth * 0.8
+    margin: 0.5em auto
+  .painting-gallery
+    .one-painting
+      a
+        img
+          //width: 100%
+          //height: 100%
+          max-width: 700px
+          max-height: 700px
+
+
+
+
+/* Smaller screens
+@media screen and (max-width: 799px)
+  body
+    padding: 0.7em
+  h1
+    font-size: $heading1Size*0.7
+    font-spacing: 0px
+  .flexcontainer
+    flex-direction: column
+  nav#top-nav
+    order: 4
+    margin-top: 0px
+    border-top: 1px solid $dividerLineColor
+    ul
+      margin: 20px 0 20px 0
+    li
+      display: flex
+      flex-wrap: wrap
+      margin: 0px
+  section#content
+    margin: $blockMargin/4 $blockMargin/4 0 $blockMargin/4
+    max-width: $contentMaxWidthMobile
+    iframe
+      width: $contentMaxWidthMobile
+  .subdirectory
+    display: none
+  .quote
+    max-width: $contentMaxWidthMobile
+    margin: 0 0.2em 0 0.2em
+  .painting-gallery
+    .one-painting
+      a
+        img
+          max-width: 300px
+          max-height: 300px
+          display: block
+          margin: 0 auto 0 auto
