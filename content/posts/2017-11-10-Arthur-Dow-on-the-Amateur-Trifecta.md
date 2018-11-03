@@ -2,6 +2,7 @@ Template: article
 title: Arthur Dow on the Amateur Trifecta
 Date:   2017-11-18 8:05:00 -0500
 Categories: essays
+Description: A 20th century art teacher says railroads aren't worth our time, but that didn't stop me from completing the so-called Amateur Trifecta of crappy photography as a right of passage.
 
 ```text
 EXT: A SPOOKY GRAVEYARD
