@@ -2,13 +2,9 @@
 
 body
   font-family: $mainFont
-  //font-size: 100%
 
 #content-wrapper
   max-width: 1000px
-
-//max-width: 100%
-
 
 nav#top-nav
   font-family: $headingFont
@@ -31,8 +27,6 @@ ul.painting-info
     margin-left: 0
     margin-bottom: $blockMargin/4
 
-
-
 #content
   p, ul, ol
     margin-bottom: $blockMargin
@@ -47,7 +41,7 @@ ul.painting-info
     font-size: $mainFontSize
     line-height: $mainFontSize + 0.4em
     font-weight: 200
-
+    letter-spacing: -0.04em
 
 div p:first-of-type:first-letter
   font-size: $mainFontSize * 2.4
@@ -62,7 +56,6 @@ div p:first-of-type:first-letter
 article.hentry
   .divider-line
     margin: $blockMargin*2 0 $blockMargin*2 0
-
 
 a
   text-decoration: none
@@ -99,7 +92,6 @@ h3
   text-transform: $headingTextTransform
   margin: $blockMargin/2 0 $blockMargin/2 0
 
-
 h4
   font-size: $heading4Size
   text-transform: $headingTextTransform
@@ -112,15 +104,10 @@ h4
   font-size: 1.3em
   >p
     font-family: $quoteFont
-  color: $quoteFontColor
-  font-style: italic
-  font-size: 1.3em
 
 img.thumbnail, img.article-thumbnail
   max-width: 300px
   max-height: 200px
-
-
 
 .divider-line
   border-bottom: 1px solid $dividerLineColor
@@ -133,7 +120,6 @@ footer.post-info
   font-size: $metadataFontSize
   font-style: $metadataFontStyle
   margin: $blockMargin/4 0 $blockMargin/2 0
-
 
 section#content
   ol#post-list
@@ -160,3 +146,5 @@ footer#page-footer
   margin: $blockMargin 0 $blockMargin 0
   background-color: inherit
 
+.tech-project
+  display: inline

@@ -1,9 +1,16 @@
 {% extends "page.html" %}
 
-{% block content %}
-    <img src="{{ page.img }}"/>
+{% block sectionTitle %}
+<h1 class="entry-title">: Paintings</h1>
+{% endblock %}
 
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.date }}</p>
-    <p>{{ page.description }}</p>
+{% block content %}
+    <img class="painting-page" src="{{ page.img }}"/>
+
+    <h3 class="painting-title">{{ page.title }}</h3>
+    <ul class="painting-info">
+        <li>{{ page.size }}</li>
+        <li><time class="published" datetime="{{ page.date.isoformat() }}"> {{ page.date | strftime('%B %Y') }} </time></li>
+        <li>{{ page.description }}</li>
+    </ul>
 {% endblock %}
