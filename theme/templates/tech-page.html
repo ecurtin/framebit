@@ -5,16 +5,9 @@
 {% endblock %}
 
 {% block content %}
-<img class="tech-image" src="{{ page.img }}"/>
+<img src="{{ page.img }}"/>
 
-<div class = "next-to-pic">
-
-
-<h2 class="next-to-pic">{{ page.title }}</h2>
-<footer class="post-info">
-    <time class="published" datetime="{{ page.date.isoformat() }}"> {{ page.locale_date }} </time>
-</footer><!-- /.post-info -->
-</div>
-{{ super() }}
-
+<h1>{{ page.title }}</h1>
+<p>{{ page.date }}</p>
+<p>{{ page.description }}</p>
 {% endblock %}
