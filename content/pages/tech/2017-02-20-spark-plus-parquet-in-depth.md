@@ -4,8 +4,7 @@ Date: 2017-02-20
 Tags: tech
 Description: Spark Summit East 2017
 Img: ../images/icons/spark_summit_logo.png
-
-https://spark-summit.org/east-2017/events/spark-parquet-in-depth/
+Link: https://spark-summit.org/east-2017/events/spark-parquet-in-depth/
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_0Wpwj_gvzg?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
