@@ -1,8 +1,8 @@
 Template: tech-page
-Title: Spark-Bench
+Title: Code: Spark-Bench
 Date: 2017-09-20
 Tags: tech
-Description: benchmarking & simulation for Apache Spark
+Description: Benchmarking & simulation for Apache Spark
 Img: ../images/icons/GitHub-Mark-120px-plus.png
 Redirect: https://sparktc.github.io/spark-bench/
 

@@ -1,14 +1,15 @@
 Template: tech-page
-Title: Hokey Pokey Tree
+Title: Code: Hokey Pokey Tree
 Date: 2015-04-10
 Tags: tech
-Description: a data structure that truly is what it's all about
+Description: A data structure that truly is what it's all about
 Img: ../images/icons/GitHub-Mark-120px-plus.png
 Redirect: https://github.com/ecurtin/HokeyPokeyTree
 
-The HokeyPokeyTree is a generic binary tree structure useful for many different applications.
+The HokeyPokeyTree is a generic binary tree structure useful for many different applications where slow but oddly catchy tree traversal is of the utmost importance.
 
 **Algorithmic Complexity**
+
 - `O(n)` Access
 - `O(n)` Search
 - `O(n)` Insertion
