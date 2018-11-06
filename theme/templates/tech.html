@@ -8,17 +8,11 @@
         {% if page.tags %}
             {% for tag in page.tags %}
                 {% if "tech" in tag.name %}
-                    <div class="tech-block">
-                        <div class="logo-wrapper">
-                            <img class="thumbnail" src="{{ page.img }}"/>
-                        </div>
-                        <div class="tech-project">
-                            <a href="{{ page.url }}">
-                                <h2>{{ page.title }}</h2>
-                            </a>
-                            <footer>{{ page.description }}</footer>
-                        </div>
-                    </div>
+                    <h2 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
+                    <footer class="post-info">
+                        <time class="published" datetime="{{ page.date.isoformat() }}"> {{ page.locale_date }} </time>
+                    </footer><!-- /.post-info -->
+                    <div class="entry-content"> {{ page.description }} </div><!-- /.entry-content -->
                     <div class="divider-line"></div>
                 {% endif %}
             {% endfor %}
