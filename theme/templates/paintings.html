@@ -14,7 +14,7 @@
                             {% if page.img %}
                             <a href="{{ page.url }}"><img src="{{ page.img }}"/></a>
                             {% endif %}
-                            <h3 class="painting-title">{{ page.title }}</h3>
+                            <h3 class="painting-title"><a href="{{ page.url }}">{{ page.title }}</a></h3>
                             <ul class="painting-info">
                                 <li>{{ page.size }}</li>
                                 <li><time class="published" datetime="{{ page.date.isoformat() }}"> {{ page.date | strftime('%B %Y') }} </time></li>
