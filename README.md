@@ -11,7 +11,7 @@ the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site gener
 
 3. ```source ./venv/bin/activate```
 
-2. `pip install pelican markdown` 
+2. `pip install pelican markdown sass` 
 
 2. Compile the Sass to CSS
     ```bash

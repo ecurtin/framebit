@@ -1,5 +1,5 @@
 Template: quote
-Title: Ira Glass
+Title: Chernobyl and Paradise
 Date:   2019-05-29 11:15:00 -0400
 Author: Moxie Marlinspike
 Source: https://moxie.org/stories/chernobyl-scene-report/
