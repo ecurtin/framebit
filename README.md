@@ -7,13 +7,11 @@ the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site gener
 
 1. Clone the site.
 
-2. Start the virtualenv with `pip install pelican markdown` run
-    ```bash
-    # From framebit directory on my system
-    # And yes this is apparently a venv inside a venv...
-    # I hate Python
-    $ source ../../venvs/pelican/venv/bin/
-    ```
+2. Create the virtualenv with ```virtualenv --python=`which python3` ./venv```
+
+3. ```source ./venv/bin/activate```
+
+2. `pip install pelican markdown` 
 
 2. Compile the Sass to CSS
     ```bash
