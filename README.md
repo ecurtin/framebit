@@ -7,26 +7,32 @@ the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site gener
 
 1. Clone the site.
 
-2. Create the virtualenv with ```virtualenv --python=`which python3` ./venv```
+2. Create the virtualenv, source, and install pelican 
 
-3. ```source ./venv/bin/activate```
-
-2. `pip install pelican markdown sass` 
+```bash
+pyenv virtualenv 3.7.3 pelican
+pyenv local pelican
+pip install pelican markdown sass
+```
 
 2. Compile the Sass to CSS
-    ```bash
-    sass --watch theme/static/sass/collector.sass:theme/static/css/output.css
-    ```
+
+```bash
+sass --watch theme/static/sass/collector.sass:theme/static/css/output.css
+```
 
 2. Do the site generation
-    ```bash
-    pelican content
-    ```
+
+```bash
+pelican content
+```
+
 3. Run the server
-    ```bash
-    cd ~/projects/yoursite/output
-    python -m pelican.server
-    ```
+
+```bash
+cd ~/projects/yoursite/output
+python -m pelican.server
+```
 
 4. Navigate to `localhost:8000`
 
