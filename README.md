@@ -2,41 +2,22 @@
 
 ## Developing
 
-This 10,000th iteration of this site is built using 
-the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site generator.
+This 10,001st iteration of this site is built using TailwindCSS because `#thefuture` and `#kidsthesedays`.
 
-1. Clone the site.
+### Get ready to run NPM commands and feel a little gross about it (this is boilerplate from [create-vite-tailwind](https://www.npmjs.com/package/create-vite-tailwind) )
 
-2. Create the virtualenv, source, and install pelican 
-
-```bash
-pyenv virtualenv 3.7.3 pelican
-pyenv local pelican
-pip install pelican markdown sass
 ```
-
-2. Compile the Sass to CSS
-
-```bash
-sass --watch theme/static/sass/collector.sass:theme/static/css/output.css
+$ npm install
+...
+$ npm run dev
 ```
+Open the provided link to view the project in a browser. Changes to the project will be hot reloaded and auto refreshed.
 
-2. Do the site generation
+## Purged classes
 
-```bash
-pelican content
-```
-
-3. Run the server
-
-```bash
-cd ~/projects/yoursite/output
-python -m pelican.server
-```
-
-4. Navigate to `localhost:8000`
-
-It's best to run the server from a separate terminal as it will reload on changes, which is handy!
+Tailwind purges unused classes by default. This project is configured to scan HTML and 
+JavaScript
+ files in the root directory only. To change this behavior, edit the `content` property of `tailwind.config.cjs`. See the [Tailwind configuration docs](https://tailwindcss.com/docs/configuration) for more info.
 
 ## Previous Frameworks
 
@@ -47,3 +28,4 @@ It's best to run the server from a separate terminal as it will reload on change
 - I know, I'll write my own static site generator in Scala! (lol, no)
 - Jekyll
 - Pelican
+- And now TailwindCSS and Vite and too much `npm` for this ML Engineer
