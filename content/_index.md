@@ -1,7 +1,7 @@
 ---
-author: Dirk Olbrich
-title: Hi, and welcome.
-date: 2019-05-15
+author: Emily May Curtin
+title: 
+date: 2023-06-25
 ---
 
-Live long and code.
+let's pretend there's an image gallery here

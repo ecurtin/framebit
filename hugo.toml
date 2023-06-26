@@ -1,16 +1,15 @@
 baseURL = 'https://framebit.org/'
 languageCode = 'en-us'
 title = 'Emily May Curtin'
-
-author = "Emily May Curtin"
 copyright = "Copyright © 2011-2023, Emily Curtin, all rights reserved."
 
-[params]
-    name = "Hugo Tailwindcss Starter"
-    description = "A simple bootstraped theme for Hugo, build with Tailwindcss."
+[author]
+    name = "Emily May Curtin"
+    location = "Atlanta"
 
-    github_user = "dirkolbrich"
-    github_repo = "https://github.com/dirkolbrich/hugo-tailwindcss-starter-theme"
+[params]
+    github_user = "ecurtin"
+    github_repo = "https://github.com/ecurtin/framebit"
     github_banner = true
 
     favicon = "favicon.ico"
