@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article
+    class="justify-self-center mx-auto px-6 mb-16 sm:px-4 md:px-0 prose dark:prose-invert prose-slate lg:prose-lg hover:prose-a:text-sky-500">
+    <img src="{{ .Params.img }}" />    
+    <h3>{{ .Title }}</h3>
+    <ul class="lowercase list-none list-inside p-0">
+        <li class="px-0 my-0">{{ .Params.size }}</li>
+        <li class="px-0 my-0">{{ .Date | time.Format ":date_long" }}</li>
+        <li class="px-0 my-0">{{ .Params.materials }}</li>
+    </ul>
+    {{ .Content }}
+</article>
+{{ end }}

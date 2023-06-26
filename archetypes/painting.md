@@ -2,10 +2,8 @@
 author: Emily May Curtin
 title: {{ replace .Name "-" " " | title }}
 materials: 
-date: {{ .Date }}
 img: /img/
+date: {{ .Date }}
 size: 
 source_url: 
 ---
-
-![cool pic]({{ $img }})

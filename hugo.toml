@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'Emily May Curtin'
 copyright = "Copyright © 2011-2023, Emily Curtin, all rights reserved."
 
+pluralizeListTitles = "false"
+
 [author]
     name = "Emily May Curtin"
     location = "Atlanta"
