@@ -69,6 +69,14 @@
                 <td>{{ printf "%v" .CurrentSection }}</td>
             </tr>
             <tr class="p-2 border-t">
+                <td>.Sections</td>
+                {{ printf "%v" .Sections }}
+            </tr>
+            <tr class="p-2 border-t">
+                <td>.Parent</td>
+                {{ printf "%v" .Parent }}
+            </tr>
+            <tr class="p-2 border-t">
                 <td>.Pages</td>
                 <td>
                     {{ printf "%v" .Pages }}

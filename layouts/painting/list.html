@@ -1,0 +1,85 @@
+{{ define "main" }}
+
+<article
+    class="justify-self-center mx-auto mb-16 px-6 sm:px-4 md:px-0 prose dark:prose-invert prose-slate lg:prose-lg hover:prose-a:text-sky-500">
+    <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+    {{ .Content }}
+</article>
+
+ <!-- Slideshow container -->
+ <div class="slideshow-container">
+    {{ range $k,$v := .Pages }}
+
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">{{ add $k 1 }} / {{ len $.Pages }}</div>
+      <img src="{{ .Params.img }}" style="width:100%">
+      <div class="text-grey-800">
+        {{ .Title }}
+        <ul class="lowercase list-none list-inside p-0">
+            <li class="px-0 my-0">{{ .Params.size }}</li>
+            <li class="px-0 my-0">{{ .Date | time.Format ":date_long" }}</li>
+            <li class="px-0 my-0">{{ .Params.materials }}</li>
+        </ul>
+
+
+      </div>
+    </div> 
+    {{ end }}
+
+
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  <br>
+  
+
+
+
+
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    {{ range $k,$v := .Pages }}
+    <span class="dot" onclick="currentSlide({{ $k }})"></span>
+    {{ end }}
+  </div> 
+
+
+
+
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+
+
+{{ end }}
