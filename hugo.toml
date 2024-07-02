@@ -1,13 +1,9 @@
 baseURL = 'https://framebit.org/'
 languageCode = 'en-us'
 title = 'Emily May Curtin'
-copyright = "Copyright © 2011-2023, Emily Curtin, all rights reserved."
+copyright = "Copyright © 2011-2024, Emily Curtin, all rights reserved."
 
-pluralizeListTitles = "false"
-
-[author]
-    name = "Emily May Curtin"
-    location = "Atlanta"
+pluralizeListTitles = false
 
 [params]
     github_user = "ecurtin"
@@ -15,6 +11,8 @@ pluralizeListTitles = "false"
     github_banner = true
 
     favicon = "favicon.ico"
+    author = "Emily May Curtin"
+    location = "Atlanta"
 
 # syntax highlight settings
 [markup]

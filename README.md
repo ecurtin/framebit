@@ -2,41 +2,18 @@
 
 ## Developing
 
-This 10,000th iteration of this site is built using 
-the [Pelican](http://docs.getpelican.com/en/stable/index.html) static site generator.
+### Installation
 
-1. Clone the site.
-
-2. Create the virtualenv, source, and install pelican 
-
-```bash
-pyenv virtualenv 3.7.3 pelican
-pyenv local pelican
-pip install pelican markdown sass
+```
+apt install hugo npm
+npm install postcss-cli
 ```
 
-2. Compile the Sass to CSS
+### Start the Server
 
-```bash
-sass --watch theme/static/sass/collector.sass:theme/static/css/output.css
 ```
-
-2. Do the site generation
-
-```bash
-pelican content
+hugo server
 ```
-
-3. Run the server
-
-```bash
-cd ~/projects/yoursite/output
-python -m pelican.server
-```
-
-4. Navigate to `localhost:8000`
-
-It's best to run the server from a separate terminal as it will reload on changes, which is handy!
 
 ## Previous Frameworks
 
