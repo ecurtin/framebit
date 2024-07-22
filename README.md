@@ -15,6 +15,17 @@ npm install postcss-cli
 hugo server
 ```
 
+### Creating New Content
+
+```
+hugo new content/whatever-dir/name-of-file.md -k <archetype>
+```
+
+```
+hugo new content/snippets/looking-at-the-hills.md -k quote
+```
+
+
 ## Previous Frameworks
 
 - iWeb (lol)
