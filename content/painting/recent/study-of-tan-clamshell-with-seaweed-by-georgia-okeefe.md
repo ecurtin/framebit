@@ -1,6 +1,6 @@
 ---
 author: Emily May Curtin
-title:  Study of Tan Clamshell with Seaweed by Georgia O'Keefe
+title:  Study of "Tan Clamshell with Seaweed" by Georgia O'Keefe
 materials: Oil on Canvas
 img: /img/700-limited/IMG_0008-MAX.png
 date: 2017-12-02
