@@ -1,0 +1,16 @@
+{{ define "main" }}
+    {{ range .Pages }}
+        <article
+            class="justify-self-center mx-auto mb-16 px-6 sm:px-4 md:px-0 prose dark:prose-invert prose-slate lg:prose-lg hover:prose-a:text-sky-500">
+            <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
+            {{/*  {{ debug.Dump . }}  */}}
+            {{ if eq .Params.type "quote"}}
+                <a href={{ .Page.Permalink }} class="no-underline text-slate-800 hover:text-sky-500">{{ .Content }}</a>
+                - {{ .Params.author_dude }}, <a href="{{ .Params.source_url }}" class="text-sky-500 hover:text-sky-600">{{ .Params.source_name }}</a>
+            {{ else }}
+                {{ .Content }}
+            {{ end }}
+            <hr/>
+        </article>
+    {{ end }}
+{{ end }}

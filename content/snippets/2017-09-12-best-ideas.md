@@ -1,7 +1,7 @@
 ---
-template: quote
+type: quote
 date:   2017-09-12 15:22:00 -0400
-author: Nick Paumgarten
+author_dude: Nick Paumgarten
 source_url: https://www.newyorker.com/magazine/2017/08/28/st-vincents-cheeky-sexy-rock
 source_name: St. Vincent’s Cheeky, Sexy Rock
 categories: art culture
