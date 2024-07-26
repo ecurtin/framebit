@@ -8,6 +8,7 @@ img: ../images/icons/GitHub-Mark-120px-plus.png
 external_link: https://github.com/IBMStreams/streamsx.cassandra
 ---
 
-Streamsx.Cassandra is a toolkit for operators that connect IBM Streams to a Cassandra cluster.
+Streamsx.Cassandra is a toolkit for operators that connect IBM Streams to a
+Cassandra cluster.
 
 It is in use for production applications at The Weather Company.

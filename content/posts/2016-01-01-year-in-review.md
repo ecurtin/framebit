@@ -7,5 +7,5 @@ categories: short rambles
 
 In 2015, I graduated.
 
-And I guess some other stuff happened too, but it didn't make quite the same impression.
-<!--more-->
+And I guess some other stuff happened too, but it didn't make quite the same
+impression. <!--more-->
