@@ -1,7 +1,9 @@
-Template: article
-Title:  Letter to Hilde
-Date:   2016-11-11 23:46:19 -0500
-Categories: essays
+---
+# type: article
+title:  Letter to Hilde
+date:   2016-11-11 23:46:19 -0500
+categories: essays
+---
 
 Hilde, I haven't even gotten a chance to hold you at all yet, and already I want to hold you a little tighter.
 

@@ -1,11 +1,13 @@
-Template: article
-Title:  Hockney Style Photo Collages and Composites
-Date:   2014-04-20 22:16:13 -0400
-Categories: art code
+---
+# type: article
+title:  Hockney Style Photo Collages and Composites
+date:   2014-04-20 22:16:13 -0400
+categories: art code
 Thumbnail: https://farm6.staticflickr.com/5674/23510842914_bf9fe8aafb_o.png
 Summary: 
     Creating a custom image manipulator in the style of David Hockney collages 
     using Java because I didn't know any better at the time.
+---
 
 I listened to a lot of Bowie during this project. It was roughly period appropriate.
 

@@ -1,7 +1,9 @@
-Template: article
-Title:  Talking About "Tech"
-Date:   2016-12-01 4:38:19 -0500
-Categories: essays
+---
+# type: article
+title:  Talking About "Tech"
+date:   2016-12-01 4:38:19 -0500
+categories: essays
+---
 
 Saying "I work in tech" is uselessly broad. 
 Tech is vast, multi-faceted, and multi-disciplined.

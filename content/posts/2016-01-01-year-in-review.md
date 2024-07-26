@@ -1,7 +1,9 @@
-Template: article
-Title:  2015 Year In Review
-Date:   2016-01-01 09:25:00 -0400
-Categories: short rambles
+---
+# type: article
+title:  2015 Year In Review
+date:   2016-01-01 09:25:00 -0400
+categories: short rambles
+---
 
 In 2015, I graduated.
 

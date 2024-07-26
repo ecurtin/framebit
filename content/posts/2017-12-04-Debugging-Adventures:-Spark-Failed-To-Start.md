@@ -1,9 +1,12 @@
-Template: article
-Title: Debugging Adventures: Spark Failed To Start
-Date:   2017-12-04 00:00:00 -0400
+---
+# type: article
+title: "Debugging Adventures: Spark Failed To Start"
+date:   2017-12-04 00:00:00 -0400
+---
 
 
-Today after browsing the latest William Carlos Williams memes on Twitter, I figured it was time to actually do work.
+Today after browsing the latest William Carlos Williams memes on Twitter, I
+figured it was time to actually do work.
 
 ```bash
 cd ~/git/spark-bench
@@ -52,9 +55,12 @@ java.lang.NoClassDefFoundError: Could not initialize class com.ibm.sparktc.spark
 	at java.lang.Thread.run(Thread.java:748)
 [error] Could not run test com.ibm.sparktc.sparkbench.NotebookSimTest: java.lang.NoClassDefFoundError: Could not initialize class com.ibm.sparktc.sparkbench.testfixtures.SparkSessionProvider$
 ```
-Cool. That's fun. Everything was totes fine yesterday, now I can't make a SparkSession.
 
-First let's make sure sbt hasn't done anything weird. And let's also try checking out master and seeing if it's just my changes.
+Cool. That's fun. Everything was totes fine yesterday, now I can't make a
+SparkSession.
+
+First let's make sure sbt hasn't done anything weird. And let's also try
+checking out master and seeing if it's just my changes.
 
 ```bash
 sbt clean test
@@ -152,9 +158,14 @@ Welcome to
       /_/
 ```
 
-I love how it'll still get all the way to the ASCII art and the shell even if everything has blown up. Welcome to your busted Spark-Shell! It's like a Scala shell but with a little ASCII art and more error messages! But at least I know it's not Spark-Bench that's the issue.
+I love how it'll still get all the way to the ASCII art and the shell even if
+everything has blown up. Welcome to your busted Spark-Shell! It's like a Scala
+shell but with a little ASCII art and more error messages! But at least I know
+it's not Spark-Bench that's the issue.
 
-Now let's stumble around with permissions issues because maybe magic elves changed permissions on stuff without me noticing and I can't be bothered to `ls -l /opt`.
+Now let's stumble around with permissions issues because maybe magic elves
+changed permissions on stuff without me noticing and I can't be bothered to
+`ls -l /opt`.
 
 Sudo make me a sandwich:
 
@@ -162,9 +173,12 @@ Sudo make me a sandwich:
 sudo /opt/spark-2.1.1-bin-hadoop2.7/bin/spark-shell
 ```
 
-And same thing happens because dastardly permissions goblins are just a children's story told to bad kids by their parents who are burnt-out programmers.
+And same thing happens because dastardly permissions goblins are just a
+children's story told to bad kids by their parents who are burnt-out
+programmers.
 
-Since the stacktraces are whining about assigning addresses, maybe there's a networking thing? Let's disconnect from the network and try again.
+Since the stacktraces are whining about assigning addresses, maybe there's a
+networking thing? Let's disconnect from the network and try again.
 
 ```text
 ERROR SparkContext: Error initializing SparkContext.

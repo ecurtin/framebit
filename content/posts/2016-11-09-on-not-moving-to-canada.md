@@ -1,7 +1,9 @@
-Template: article
-Title:  On Not Moving To Canada
-Date:   2016-11-09 08:00:19 -0500
-Categories: essays
+---
+# type: article
+title:  On Not Moving To Canada
+date:   2016-11-09 08:00:19 -0500
+categories: essays
+---
 
 Last night, while we as a nation elected Trump, we as a nation also collectively DDOS'd the Canadian immigration website, crashing it sometime in the late evening.
 

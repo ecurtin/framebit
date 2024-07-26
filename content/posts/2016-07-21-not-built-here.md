@@ -1,7 +1,9 @@
-Template: article
-Title:  "Didn't Build It Here: Moving to Jekyll"
-Date:   2016-07-21 11:22:00 -0400
-Categories: code website
+---
+# type: article
+title:  "Didn't Build It Here: Moving to Jekyll"
+date:   2016-07-21 11:22:00 -0400
+categories: code website
+---
 
 I've been through so many half-ass iterations on this poor website. Bless its heart.
 
