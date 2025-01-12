@@ -1,9 +1,9 @@
 ---
-# type: talk
 title: Spark + Parquet In Depth
 date: 2017-02-20
-tags: tech
-description: Spark Summit East 2017
+conference: Spark Summit East 2017
+location: Boston, MA
+video_url: https://www.youtube-nocookie.com/embed/_0Wpwj_gvzg?rel=0
 img: ../images/icons/spark_summit_logo.png
 event_link: https://spark-summit.org/east-2017/events/spark-parquet-in-depth/
 ---
