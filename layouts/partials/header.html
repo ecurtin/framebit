@@ -46,6 +46,11 @@
             <a href="{{ .Permalink }}" class="hover:text-sky-500 dark:hover:text-sky-500">{{ .Title }}</a>
         </li>
         {{ end }}
+        {{ with .Site.GetPage "/elsewhere" }}
+        <li>
+            <a href="{{ .Permalink }}" class="hover:text-sky-500 dark:hover:text-sky-500">{{ .Title }}</a>
+        </li>
+        {{ end }}
         <li>
             <label class="sr-only">Theme</label>
             <button type="button" id="theme-toogle" onclick="changeTheme()"

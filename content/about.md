@@ -1,5 +1,5 @@
 ---
-title: About
+title: About Me
 date: 2024-07-01
 description: A short description about me.
 keywords: [about, creator]
