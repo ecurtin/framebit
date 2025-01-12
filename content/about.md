@@ -6,7 +6,7 @@ keywords: [about, creator]
 type: about
 ---
 
-# Career Stuff
+## Career Stuff
 
 I'm Emily from MLE, partly because the branding is too good to get away from it.
 
@@ -18,7 +18,7 @@ Some would say I'm more MLOps than MLEng, but impact matters a bit more than def
 
 One of my favorite things about my job is getting [the opportunity to speak and put a human spin on these machine problems.](speaking) I also enjoy mentoring early career engineers and watching the lightbulbs turn on as concepts connect.
 
-# Don't Quit Your Day Job
+## Don't Quit Your Day Job
 
 Outside of work I paint, experiment with kinetic and electric art, ride my bike a whole lot, and crush some sweet V1s when they're not too crimpy.
 
