@@ -10,18 +10,17 @@ date: 2024-07-01
 
 <p class="text-xs italic text-left">*NOTE: "Emily from MLOps" is probably more accurate, but the branding isn't as catchy. #defendthebrand or whatever.</p>
 
-
 <h2 style="margin-top: 1em;"> Welcome to my corner of the </br> <img src="/img/corny-gifs/globe5_3sec.gif" alt="Globe GIF" style="display: inline; margin: 0; height: 1.5em;"> World Wide Web <img src="/img/corny-gifs/globe5_3sec.gif" alt="Globe GIF" style="display: inline; margin: 0; height: 1.5em;"> </h2>
 
 <div class="justify-self mx-auto text-left prose dark:prose-invert prose-slate lg:prose-lg bg-origin-padding">
 
-I hope you'll stick around to [enjoy a painting](painting) or maybe listen to me [talk about MLOps or something](speaking). You also might be in a hurry and just wanna jump straight to [my resume]().
+I hope you'll stick around to [enjoy a painting](painting) or maybe listen to me [talk about MLOps or something](speaking). You also might be in a hurry and just wanna jump straight to [my resume](resume).
 
 Sometimes I collect [snippets](snippets) of other people's work that I find interesting.
 
 You can also never go wrong checking out [this other really cool guy that I like a whole lot](https://ratml.org).
 
-Thanks for stopping by and I hope something here makes your day a little brighter.
+Thanks for stopping by. I hope something here makes your day a little brighter.
 
 </br>
 
