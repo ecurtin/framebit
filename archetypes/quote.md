@@ -1,7 +1,7 @@
 ---
 type: quote
 date: {{ .Date }}
-source_url:
+author_dude: 
 source_name: 
-author: 
+source_url:
 ---
