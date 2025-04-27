@@ -10,12 +10,10 @@
             </div>
         </div>
         {{ with .Params.img }}
-        <div class="mb-4">
-            <img src="{{ . }}" alt="Talk: {{ $.Page.Title }}" class="max-h-48 object-contain"/>
-        </div>
+            <img src="{{ . }}" alt="Talk: {{ $.Title }}" class="max-h-48 object-contain"/>
         {{ end }}
         <div class="line-clamp-3">
-            {{ $content | truncate 300 }}
+            {{ .Content }}
         </div>
         <div class="mt-4">
             <a href="{{ .Permalink }}" class="text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300 no-underline">
