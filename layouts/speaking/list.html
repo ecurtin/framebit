@@ -2,23 +2,25 @@
 <h1 class="text-3xl font-bold text-slate-800 dark:text-slate-200 mb-8"> <a href="{{ .Permalink }}">{{ .Title }}</a> </h1>
 {{ range .Pages.ByDate.Reverse }}
     <article class="justify-self-center mx-auto mb-12 px-6 sm:px-4 md:px-0 prose dark:prose-invert prose-slate lg:prose-lg hover:prose-a:text-sky-500">
-        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
-            <h2 class="m-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-            <div class="text-sm text-slate-600 dark:text-slate-400">
-                {{ with .Params.conference }}at {{ . }}{{ end }}
-                {{ with .Date }} · {{ .Format "January 2, 2006" }}{{ end }}
+        <div class="flex gap-6 items-start mb-4">
+            {{ with .Params.img }}
+                <img src="{{ . }}" alt="Talk: {{ $.Title }}" class="w-24 h-24 object-contain flex-shrink-0"/>
+            {{ end }}
+            <div class="flex-grow min-w-0">
+                <h2 class="m-0"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                <div class="text-sm text-slate-600 dark:text-slate-400 mb-2">
+                    {{ with .Params.conference }}at {{ . }}{{ end }}
+                    {{ with .Date }} · {{ .Format "January 2, 2006" }}{{ end }}
+                </div>
+                <div class="line-clamp-3 text-base">
+                    {{ .Content }}
+                </div>
+                <div class="mt-2">
+                    <a href="{{ .Permalink }}" class="text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300 no-underline text-sm">
+                        Read more →
+                    </a>
+                </div>
             </div>
-        </div>
-        {{ with .Params.img }}
-            <img src="{{ . }}" alt="Talk: {{ $.Title }}" class="max-h-48 object-contain"/>
-        {{ end }}
-        <div class="line-clamp-3">
-            {{ .Content }}
-        </div>
-        <div class="mt-4">
-            <a href="{{ .Permalink }}" class="text-sky-600 hover:text-sky-700 dark:text-sky-400 dark:hover:text-sky-300 no-underline">
-                Read more →
-            </a>
         </div>
     </article>
 {{ end }}
