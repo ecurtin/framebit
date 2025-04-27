@@ -21,3 +21,8 @@ pluralizeListTitles = false
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+    [markup.goldmark.extensions]
+      typographer = true
