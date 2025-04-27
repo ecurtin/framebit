@@ -20,4 +20,4 @@ One of my favorite things about my job is getting [the opportunity to speak and 
 
 ## Don't Quit Your Day Job
 
-Outside of work I paint, experiment with kinetic and electric art, ride my bike a whole lot, and crush some sweet V1s when they're not too crimpy.
+Outside of work I paint, garden, learn about music, read, bother my cats, experiment with kinetic and electric art, ride my bike a whole lot, and crush some sweet V1s when they're not too crimpy.
