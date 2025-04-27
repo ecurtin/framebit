@@ -4,7 +4,7 @@ date: 2017-10-22
 conference: Spark Summit EU
 location: Dublin, Ireland
 video_url: 
-img: ../images/icons/spark_summit_logo.png
+img: /img/icons/spark_summit_logo.png
 event_link: https://spark-summit.org/eu-2017/events/apache-spark-bench-simulate-test-compare-exercise-and-yes-benchmark/
 ---
 

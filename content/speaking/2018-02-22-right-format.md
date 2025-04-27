@@ -4,7 +4,7 @@ date: 2018-02-22
 conference: Devnexus 2018
 location: Atlanta, GA
 video_url: 
-img: ../images/icons/devnexus-square-3.png
+img: /img/icons/devnexus-square-3.png
 event_link: https://devnexus.com/archive/devnexus2018/presentations/1344/
 ---
 
