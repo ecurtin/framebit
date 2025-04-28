@@ -1,14 +1,15 @@
 {{ define "main" }}
-<div class="flex">
-    <!-- Sidebar Navigation -->
-    <div class="w-48 flex-shrink-0 pr-8 border-r border-slate-200 dark:border-slate-700">
-        <h2 class="text-lg font-semibold mb-4 text-slate-800 dark:text-slate-200">Paintings</h2>
+<div class="block lg:flex">
+    <!-- Navigation - horizontal on mobile, sidebar on desktop -->
+    <div class="lg:w-48 lg:flex-shrink-0 lg:pr-8 lg:border-r lg:border-slate-200 lg:dark:border-slate-700 mb-4 lg:mb-0">
+        <h1 class="text-3xl font-bold text-slate-800 dark:text-slate-200 mb-3 lg:mb-8">Paintings</h1>
         {{ $galleries := slice "recent" "landscape" "weather" "2015-2018" }}
         {{ $currentPath := path.Base .RelPermalink }}
-        <div class="flex flex-col gap-3">
+        <!-- Horizontal scroll on mobile, vertical on desktop -->
+        <div class="flex lg:flex-col gap-3 overflow-x-auto pb-1 lg:pb-0 whitespace-nowrap lg:whitespace-normal">
             {{ range $galleries }}
                 <a href="/painting/{{ . }}/" 
-                   class="text-slate-600 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400
+                   class="text-slate-600 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400 flex-shrink-0
                           {{ if or (eq $currentPath .) (and (eq . "recent") (eq $currentPath "painting")) }}
                               font-semibold text-sky-500 dark:text-sky-400
                           {{ end }}">
@@ -19,8 +20,9 @@
     </div>
 
     <!-- Main Content -->
-    <div class="flex-grow pl-8">
-        <h1 class="text-3xl font-bold text-slate-800 dark:text-slate-200 mb-8">
+    <div class="mt-0 lg:flex-grow lg:pl-8">
+        <!-- Hide this heading on mobile since we already have one above -->
+        <h1 class="text-3xl font-bold text-slate-800 dark:text-slate-200 mb-8 hidden lg:block">
             {{ if eq (path.Base .RelPermalink) "painting" }}
                 Recent Paintings
             {{ else }}
@@ -29,7 +31,7 @@
         </h1>
 
         <!-- Slideshow container -->
-        <div class="slideshow-container max-w-4xl mx-auto relative">
+        <div class="slideshow-container max-w-4xl mx-auto relative mt-0">
             {{ $currentGallery := path.Base .RelPermalink }}
             {{ if eq $currentGallery "painting" }}
                 {{ $currentGallery = "recent" }}
@@ -39,9 +41,9 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
                 <div class="numbertext">{{ add $k 1 }} / {{ len $mysection.Pages }}</div>
-                <div class="flex justify-center items-center h-[600px]">
+                <div class="flex justify-center items-center h-[180px] lg:h-[600px]">
                     <img src="{{ .Params.img }}" 
-                         class="max-w-full max-h-[600px] w-auto h-auto object-contain"
+                         class="max-w-full max-h-[180px] lg:max-h-[600px] w-auto h-auto object-contain"
                          alt="{{ .Title }}">
                 </div>
                 <div class="text-grey-800 mt-4 text-center">
