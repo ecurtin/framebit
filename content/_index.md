@@ -16,7 +16,7 @@ date: 2024-07-01
 
 I hope you'll stick around to [enjoy a painting](painting) or maybe listen to me [talk about MLOps or something](speaking). You also might be in a hurry and just wanna jump straight to [my resume](resume).
 
-Sometimes I collect [snippets](snippets) of other people's work that I find interesting.
+Sometimes I collect [snippets](snippets) of other people's work that I find interesting. There also just might be pictures of my plants in there. Sry not sry.
 
 You can also never go wrong checking out [this other really cool guy that I like a whole lot](https://ratml.org).
 
