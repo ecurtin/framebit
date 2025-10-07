@@ -8,7 +8,7 @@ For my 800,000th iteration, using the [hugo-tailwind-starter-theme](https://gith
 
 ```
 apt install hugo npm
-npm install postcss-cli
+npm install postcss-cli tailwindcss
 ```
 
 ### Start the Server
